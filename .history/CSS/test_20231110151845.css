@@ -1,0 +1,7 @@
+div{
+    width: calc(16.6666%);
+    overflow: hidden;
+    background-color: red;
+}
+div img:nth-child(1){
+}

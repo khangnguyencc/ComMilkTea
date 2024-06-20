@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần head -->
+    <head>
+        <!-- LINK CSS -->
+        <link rel="stylesheet" href="../CSS/FONT.css">
+        <link rel="stylesheet" href="../CSS/HOME.css">
+        <link rel="icon" href="../IMAGES/cốm milktea logo.png" type="images/x-icon">
+        <!-- ICON SEARCH -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- ICON CHUÔNG  -->
+        <script src="https://kit.fontawesome.com/1d1d7d2471.js" crossorigin="anonymous"></script>
+        <!-- ICON HEART -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <!-- ICON CART  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>CỐM MILKTEA</title>
+    </head>
+
+    <body>
+        <!-- PHẦN HEADER CHO WEBSITE -->
+        <header>
+            <header class="header-1">
+                <div class="main-header">
+                    <!-- ĐÂY LÀ LOGO CỐM MILK TEA -->
+                    <div class="main-img">
+                        <img src="../IMAGES/cốm milktea logo.png" alt="LOGO CỐM MILKTEA">
+                    </div>
+
+                    <!-- ĐÂY LÀ THẺ BỐ CHỨA TÊN THƯƠNG HIỆU VÀ INPUT  -->
+                    <div class="main-text-full">
+                        <div class="middle">
+                        <!-- ĐÂY LÀ TEXT THƯƠNG HIỆU -->
+                            <div class="main-text">
+                                <p>CỐMMILKTEA</p>
+                            </div>
+                            <!-- ĐÂY LÀ THANH INPUT -->
+                            <div class="main-input">
+                                <i class="fa fa-search">
+                                    <input type="text" placeholder="Search">
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PHẦN ACCOUNT  -->
+                    <div class="main-account">
+                        <!-- 3 ICON  -->
+                        <div class="main-icon">
+                            <!-- ICON CHUÔNG  -->
+                            <i class='cl-hea far fa-bell'></i>
+                            <!-- ICON TRÁI TIM -->
+                            <i class='cl-hea far fa-heart'></i>
+                            <!-- ICON GIỎ HÀNG -->
+                            <i class="cl-hea fa fa-shopping-cart"></i>
+                        </div>
+                    
+                        <!-- MY ACCOUNT -->
+                        <div class="main-account-1">
+                            <p>My Account</p>
+                            <!-- HÌNH ẢNH ACOUNT -->
+                            <img src="../IMAGES/My Acount.png" alt="My Acount">
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Nội dung 1: MENU  -->
+            <section class="sec-1">
+
+                <article class="ar-1">
+
+                    <nav class="main-menu">
+                        <ul>
+                            <!-- HOME -->
+                            <li>
+                                <a class="menu-task" href="#">Home</a>
+                            </li>
+                            <!-- ABOUT US  -->
+                            <li>
+                                <a class="menu-task" href="#">About us</a>
+                            </li>
+                            <!-- MENU  -->
+                            <li>
+                                <a class="menu-task" href="#">Menu</a>
+                            </li>
+                            <!-- POPULAR  -->
+                            <li>
+                                <a class="menu-task" href="#">Popular</a>
+                            </li>
+                            <!-- FEDDBACK  -->
+                            <li>
+                                <a class="menu-task" href="#">Feedback</a>
+                            </li>
+                            <!-- Contact us  -->
+                            <li>
+                                <a class="menu-task" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+            </section>
+        </header>
+
+        <!-- Nội dung thứ 2: BEST SELLER -->
+
+        <section class="sec-2">
+            <article class="ar-2">
+
+
+
+
+
+
+                
+            </article>
+        </section>
+
+        <img src="../IMAGES/BEST_SELLER.png" alt="">
+
+
+
+        <!-- Hiệu ứng hover sticky -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
+                    $('header').addClass('sticky');
+                }
+                else {
+                    $('header').removeClass('sticky');
+                }
+            });
+        });
+    </script>
+
+    </body>
+</html>

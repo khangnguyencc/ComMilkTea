@@ -1,0 +1,19 @@
+@media screen and (max-width: 1440px) {
+    
+    /* <!-- Nội dung thứ 2: BEST SELLER --> */
+    /* FLEX 2 khối  */
+    .sec-2{
+        background-color: #FFF1ED;
+        position: relative;
+        padding: 1.1rem 0;
+    }
+    /* HIỆU ỨNG BÓNG NƯỚC  */
+    .sec-2 .water-img-2 img{
+        width: 10%;
+        animation: animated alternate 0.5s linear infinite;
+        position: absolute;
+    top: 8rem;
+    right: 15rem;
+    }
+
+}

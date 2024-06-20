@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+    .sec-3-1 p {
+        font-size: 6vw;
+    }
+    .sec-4-1 p {
+        text-align: center;
+        width:35%;
+        font-size: 3vw;
+        padding: 0.7em 0;
+    }
+    .sec-5-1 {
+        font-size: 2vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0;
+    
+    }
+    .sec-5 .sec-5-timkiem {
+        width: 50%;
+        border: 1px solid gainsboro;
+
+    }
+    .sec-6 p {
+        font-size: 4vw;
+    }
+    .sec-7 .anhbestseller {
+        width: 100%;
+    }
+    .sec-7 .sec-7-sanpham {
+        width:33.3%;
+        margin-top: 1.5rem ;
+    }
+    .sec-7 .sec-7-sanpham img {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .sec-7 .sec-7-sanpham .ten_sanpham {
+        font-size: 2.2vw;
+
+    }
+    .sec-7 .sec-7-sanpham .gia_sanpham {
+        font-size: 3vw;
+
+    }
+    .sec-7 .sec-7-sanpham button {
+        padding: .5em 2em;
+        margin-left: 17%;
+        font-size: 1.6vw;
+        background-color: #fff;
+        border:1px solid #7373F8;
+    
+    }
+}

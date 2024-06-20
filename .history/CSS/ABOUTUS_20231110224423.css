@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- NỘI DUNG 9: MÌNH TRÀ SỮA NHÉ  --> */
+.sec-9{
+    width: 100%;
+    /* background-color: #FEFCF8; */
+    background-color: red;
+    /* padding: 5rem 0; */
+}
+.sec-9 .ar-9{
+    width: 90%;
+    margin: 0 auto;
+    background-color: brown;
+}
+.sec-9 .ar-9 .milktea-drink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* CSS CHO ẢNH  */
+.sec-9 .ar-9 .milktea-drink .milktea-img{
+    width: calc(30%);
+    background-color: aquamarine;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img img{
+    width: 10rem;
+    height: 30rem;
+    object-fit: contain;
+}
+/* CSS CHO CHỮ  */
+.sec-9 .ar-9 .milktea-drink .text-milktea{
+    width: 70%;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(1){
+    color: #FF96D1;
+    font-family: ClassiqueSaigon;
+    font-size: 3vw;
+    text-shadow: 0 0.1rem 0.2rem black;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea .row-drink{
+    width: 25%;
+    height: 0.25rem;
+    background-color: #FFCE8D;
+    box-shadow: 0 0 0.5rem black;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(2){
+    font-family: swap;
+    color: black;
+    font-family: 'Open Sans', sans-serif;font-family: 'Alumni Sans', sans-serif;
+    font-weight: lighter;
+    padding: 2rem 0;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    font-size: 2vw;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(3){
+    font-family: swap;
+    color: black;
+    font-family: 'Open Sans', sans-serif;font-family: 'Alumni Sans', sans-serif;
+    font-weight: lighter;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 20000px;
+}
+
+
+/* <!-- NỘI DUNG 9: MÌNH TRÀ SỮA NHÉ  --> */
+.sec-9{
+    width: 100%;
+    background-color: #FEFCF8;
+    /* background-color: red; */
+    padding: 5rem 0;
+}
+.sec-9 .ar-9{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: brown; */
+}
+.sec-9 .ar-9 .milktea-drink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* CSS CHO ẢNH  */
+.sec-9 .ar-9 .milktea-drink .milktea-img{
+    width: calc(30%);
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img img{
+    width: 10rem;
+    height: 30rem;
+    object-fit: contain;
+    animation: go 1s infinite linear;
+}
+
+/* .sec-9 .ar-9 .milktea-drink .milktea-img-2{
+    width: calc(30%);
+    background-color: aquamarine;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img-2 img{
+    width: 10rem;
+    height: 30rem;
+    animation: go 1s infinite linear;
+    object-fit: contain;
+} */
+
+/* CSS CHO CHỮ  */
+.sec-9 .ar-9 .milktea-drink .text-milktea{
+    width: 70%;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(1){
+    color: #FF96D1;
+    font-family: ClassiqueSaigon;
+    font-size: 3vw;
+    text-shadow: 0 0.1rem 0.2rem black;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea .row-drink{
+    width: 25%;
+    height: 0.25rem;
+    background-color: #FFCE8D;
+    box-shadow: 0 0 0.5rem black;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(2){
+    font-family: swap;
+    color: black;
+    font-family: AlumniSans-Light;
+    font-weight: lighter;
+    padding: 2rem 0;
+    /* width: 75%; */
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5vw;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(3){
+    font-family: swap;
+    color: black;
+    font-family: AlumniSans-Light;
+    font-weight: lighter;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    /* width: 75%; */
+}
+
+
+/* <!-- NỘI DUNG 10: ? TẠO RA THƯƠNG HIỆU  --> */
+
+.sec-10{
+    width: 100%;
+    background-color: #FCF3E7;
+    padding: 5rem 0;
+}
+.sec-10 .ar-10 > p{
+    color: #FFCE8D;
+    font-family: SVN-Appleberry;
+    text-align: center;
+    font-size: 2.5vw;
+    text-shadow: 0 0 0.5rem black;
+    margin-bottom: 2rem;
+}
+
+.sec-10 .ar-10 .img-main-sec10{
+    display: flex;
+    align-items: center;
+}
+
+.sec-10 .ar-10 .img-main-sec10 .img-sec10{
+    width: 50%;
+}
+.sec-10 .ar-10 .img-main-sec10 .img-sec10 img{
+    width: 100%;
+}
+
+.sec-10 .ar-10 .img-main-sec10 .text-sec10{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.sec-10 .ar-10 .img-main-sec10 .text-sec10 p{
+    color: black;
+    font-family: AlumniSans-Light;
+    width: 60%;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-left: 1.5rem;
+}
+
+/* <!-- NỘI DUNG 11: PHONG CÁCH LÀM VIỆC --> */
+.sec-11{
+    width: 100%;
+    background-color: aqua;
+}
+.sec-11 .ar-11 > p{
+    color: #A2A2F9;
+    font-family: SVN-Appleberry;
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 0 0 0.5rem black;
+}
+
+.sec-11 .ar-11 .img-sec11{
+    width: 80%;
+    /* background-color: black; */
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11{
+    width: calc(33.333% - 10px);
+    margin-top: 5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    position: relative;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 img{
+    width: 100%;
+    height: 20rem;
+    transition: all 0.6s ease-in-out;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11:hover img{
+    transform: scale(1.2);
+}
+
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts{
+    position: absolute;
+    bottom: 0;
+    left: 3rem;
+    display: flex;
+    align-items: center;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts p:nth-of-type(1){
+    font-size: 3vw;
+    font-family: RampartOne-Regular;
+}

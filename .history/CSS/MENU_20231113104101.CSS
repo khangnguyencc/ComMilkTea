@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: ClassiqueSaigon;
+    word-spacing: 1rem;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+.sec-3-1 {
+    margin : 2rem 0 2rem 0;
+    text-align: center;
+}
+
+.sec-3-1 p {
+    font-size: 4vw;
+    color: #7373F8;
+    text-shadow: 1px 3px 3px #7373F8;
+}
+.sec-3-1 .sec-3-linetittle{
+    width: 25%;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: #7373F8;
+}
+
+.sec-4-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.sec-4-1 p {
+    text-align: center;
+    width: 20%;
+    font-size: 1.7vw;
+    padding: 0.7em 0;
+}
+.sec-4-1 p:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.sec-5-1 {
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4vw;
+    /* border: 1px solid black; */
+
+}
+.sec-5-1 .sec-5-timkiem {
+    width: 100%;
+    border: 1px solid gainsboro;
+    margin-top: 2em;
+}
+
+.sec-5-1 .sec-5-timkiem label {
+    margin: 0 .5em 0 .5em;
+
+}
+
+
+.sec-6-1 {
+    color: #7373F8;
+    margin: 2rem 0 0rem;
+
+}
+.sec-6-1 p {
+    font-size: 3vw;
+}
+
+.sec-7-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec-7-1 .anhbestseller {
+    width: 53.5%;
+    margin-top: 2rem;
+}
+.sec-7-1 .anhbestseller img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.sec-7-1 .sec-7-sanpham {
+    width: 23%;
+    margin-top: 2rem ;
+    padding: 2rem 1rem;
+    height: auto;
+    /* background-color: red; */
+}
+.sec-7-1 .sec-7-sanpham:hover {
+    box-shadow: 0px 0px 20px #E7E7E7;
+    border-radius: .5rem;
+}
+.sec-7-1 .sec-7-sanpham img {
+    width: 70%;
+    margin-left: 15%;
+}
+.sec-7-1 .sec-7-sanpham .ten_sanpham {
+    font-size: 1.5vw;
+    text-align: center;
+    margin: .8rem 0 .5rem 0 ;
+    font-weight: bold;
+}
+.sec-7-1 .sec-7-sanpham .gia_sanpham {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #7373F8;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.sec-7-1 .sec-7-sanpham button {
+    padding: .3em 1.5em;
+    border-radius: .3em;
+    margin-left: 23%;
+    font-size: 1vw;
+    color: #7373F8;
+    background-color: #fff;
+    border:1px solid #7373F8;
+
+}
+.sec-7-1 .sec-7-sanpham button:hover {
+    background-color: #7373F8;
+    color: #fff;
+
+}
+.sec-7-1 .line {
+    height: 1.5px;
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 15%;
+    background-color:#7373F8;
+}
+
+/* RESPONSIVE */

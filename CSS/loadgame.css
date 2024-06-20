@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.game {
+    position: fixed;
+    backdrop-filter: blur(1.17rem);;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999999999999999999999999999;
+    
+}
+.Di {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30vh;
+
+}
+.Di p {
+    font-size: 3vw;
+    font-family: SVN-Appleberry;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.726);
+    
+}
+.Di .iconDi {
+    padding: 2rem 0;
+}
+.Di .iconDi i {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.726);
+    font-size: 2.5vw;
+    animation: go 1s linear infinite ;
+}
+.Di .iconDi i:nth-of-type(2){
+    padding: 0 5rem;
+
+}
+.Di .buttonDi button {
+    border: none;
+    padding: 1rem 4rem;
+    font-family: ClassiqueSaigon;
+    background: linear-gradient(to right, #f2b6e2, #ada2f2);
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    animation: go 1.5s infinite linear;
+    box-shadow: 0px 0px 6px rgba(255, 0, 0, 0.4), 0px 6px 10px rgba(0, 0, 255, 0.4);
+}
+.Di .buttonDi button:hover {
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.4), 0px 6px 10px rgba(0, 0, 255, 0.4);
+    background: white;
+    color: rgba(255, 0, 0, 0.4);
+    border: none;
+
+}

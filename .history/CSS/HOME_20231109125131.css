@@ -1,0 +1,179 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body{
+    height: 20000px;
+    background-color: red;
+}
+
+/* THẺ HEADER CHA 100%  */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.header-1{
+    width: 100%;
+    background-color: #FEFCF8;
+    padding: 1rem 0;
+}
+/* PHẦN MAIN CHỨA 90% */
+.header-1 .main-header{
+    width: 90%;
+    display: flex;
+    background-color: #FEFCF8;
+    margin: 0 auto;
+}
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA ẢNH  */
+.header-1 .main-header .main-img{
+    width: 8%;
+    /* background-color: brown; */
+}
+/* ĐẶT ĐỘ LỚN CHO IMG */
+.header-1 .main-header .main-img img{
+    width: 100%;
+}
+/******/
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA LOGO VÀ INPUT  */
+.header-1 .main-header .main-text-full{
+    /* background-color: purple; */
+    width: 19%;
+    display: table;
+    padding-left: 1%;
+}
+.header-1 .main-header .main-text-full .middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* ĐẨY XUỐNG CHO ĐỀU */
+.header-1 .main-header .main-text-full .middle .main-text{
+    margin-bottom: 0.6rem;
+}
+/* CSS CHO CHỮ CỐM MILKTEA */
+.header-1 .main-header .main-text-full .middle .main-text p{
+    color: #FF82B8;
+    font-family: ClassiqueSaigon;
+    font-size: 3vw;
+}
+/* ĐẨY LÊN CHO ĐỀU */
+.header-1 .main-header .main-text-full .middle .main-input{
+    margin-top: 0.6rem;
+}
+/* CSS CHO THANH INPUT THẺ CHA  */
+.header-1 .main-header .main-text-full .middle .main-input .fa-search{
+    background-color: #FCF3E7;
+    border-radius: 15px;
+    color: #9696FF;
+    padding: 3PX 5PX;
+}
+/* CSS CHO THANH INPUT THẺ CON  */
+.header-1 .main-header .main-text-full .middle .main-input .fa-search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.header-1 .main-header .main-text-full .middle .main-input .fa-search input::placeholder{
+    color: #9696FF;
+    font-family: SVN-Appleberry;
+    font-size: 1VW;
+}
+
+/* PHẦN NỘI DUNG ACCOUNT  */
+.header-1 .main-header .main-account{
+    width:72%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+/* CSS CHO 3 ICON  */
+.header-1 .main-header .main-account .main-icon .cl-hea{
+    color: #9696FF;
+    font-size: 1.5vw;
+    padding: 0 1rem;
+}
+/* CSS CHO TEXT  */
+.header-1 .main-header .main-account .main-account-1 p{
+    color: #FF96D1;
+    font-family: SVN-Appleberry;
+    font-size: 1vw;
+    padding: 0 1rem;
+
+}
+/* CSS CHO ẢNH */
+.header-1 .main-header .main-account .main-account-1 img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.header-1 .main-header .main-account .main-account-1{
+    display: flex;
+    align-items: center;
+}
+
+/* <!-- Nội dung 1: MENU  --> */
+.sec-1{
+    width: 100%;
+    background-color: #A2A2F9;
+}
+.sec-1 .ar-1{
+    width: 90%;
+    background-color: #A2A2F9;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+    padding: 0.3rem 0;
+}
+/* display flex các li trong menu  */
+.sec-1 .ar-1 .main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-1 .ar-1 .main-menu ul li .menu-task{
+    color: red;
+    font-family: SVN-Appleberry;
+    color: white;
+    font-size: 1.7vw;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    padding: 0.3rem 1rem;
+    
+}
+/* ============================================= HEADER STICKY ============================================= */
+header.sticky .sec-1 .ar-1{
+    width: 90%;
+    background-color: #A2A2F9;
+    margin: 0 auto;
+    padding: 0.6rem 0;
+}
+header.sticky .sec-1 .ar-1 .main-menu ul li .menu-task{
+    color: red;
+    font-family: SVN-Appleberry;
+    color: white;
+    font-size: 1.7vw;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    padding: 0.6rem 1rem;
+}
+
+
+
+/* Hover  */
+.sec-1 .ar-1 .main-menu ul li .menu-task:hover{
+    background-color: #9696FF;
+}
+/* Focus  */
+.sec-1 .ar-1 .main-menu ul li .menu-task:focus{
+    text-shadow: 0 0 1rem black;
+    background-color: #9696FF;
+}
+
+/* <!-- Nội dung thứ 2: BEST SELLER --> */
+
+
+
+

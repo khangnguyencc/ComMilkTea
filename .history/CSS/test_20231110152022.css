@@ -1,0 +1,9 @@
+div{
+    width: calc(16.6666%);
+    overflow: hidden;
+    background-color: red;
+    position: relative;
+}
+div .img-2{
+    background-color: aliceblue;
+}

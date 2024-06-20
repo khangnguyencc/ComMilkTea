@@ -1,0 +1,27 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* THẺ HEADER CHA 100%  */
+header{
+    width: 100%;
+    background-color: BLKAC ;
+}
+/* PHẦN MAIN CHỨA 90% */
+header .main-header{
+    width: 90%;
+    display: flex;
+}
+
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA ẢNH  */
+header .main-header .main-img{
+    width: 30%;
+}
+/* ĐẶT ĐỘ LỚN CHO IMG */
+header .main-header .main-img img{
+    width: 100%;
+}
+
+

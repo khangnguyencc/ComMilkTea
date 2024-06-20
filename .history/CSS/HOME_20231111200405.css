@@ -1,0 +1,961 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* THẺ HEADER CHA 100%  */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.header-1{
+    width: 100%;
+    background-color: #FEFCF8;
+    padding: 1rem 0;
+}
+/* PHẦN MAIN CHỨA 90% */
+.header-1 .main-header{
+    width: 90%;
+    display: flex;
+    background-color: #FEFCF8;
+    margin: 0 auto;
+}
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA ẢNH  */
+.header-1 .main-header .main-img{
+    width: 8%;
+    /* background-color: brown; */
+}
+/* ĐẶT ĐỘ LỚN CHO IMG */
+.header-1 .main-header .main-img img{
+    cursor: pointer;
+    width: 100%;
+}
+/******/
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA LOGO VÀ INPUT  */
+.header-1 .main-header .main-text-full{
+    /* background-color: purple; */
+    width: 19%;
+    display: table;
+    padding-left: 1%;
+}
+.header-1 .main-header .main-text-full .middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+/* ĐẨY XUỐNG CHO ĐỀU */
+.header-1 .main-header .main-text-full .middle .main-text{
+    margin-bottom: 0.6rem;
+}
+/* CSS CHO CHỮ CỐM MILKTEA */
+.header-1 .main-header .main-text-full .middle .main-text p{
+    color: #FF82B8;
+    font-family: ClassiqueSaigon;
+    font-size: 3vw;
+}
+/* ĐẨY LÊN CHO ĐỀU */
+.header-1 .main-header .main-text-full .middle .main-input{
+    margin-top: 0.6rem;
+}
+/* CSS CHO THANH INPUT THẺ CHA  */
+.header-1 .main-header .main-text-full .middle .main-input .fa-search{
+    background-color: #FCF3E7;
+    border-radius: 15px;
+    color: #9696FF;
+    padding: 3PX 5PX;
+}
+/* CSS CHO THANH INPUT THẺ CON  */
+.header-1 .main-header .main-text-full .middle .main-input .fa-search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.header-1 .main-header .main-text-full .middle .main-input .fa-search input::placeholder{
+    color: #9696FF;
+    font-family: SVN-Appleberry;
+    font-size: 1VW;
+}
+
+/* PHẦN NỘI DUNG ACCOUNT  */
+.header-1 .main-header .main-account{
+    width:72%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+/* CSS CHO 3 ICON  */
+.header-1 .main-header .main-account .main-icon .cl-hea{
+    color: #9696FF;
+    font-size: 1.5vw;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+/* CSS CHO TEXT  */
+.header-1 .main-header .main-account .main-account-1 p{
+    color: #FF96D1;
+    font-family: SVN-Appleberry;
+    font-size: 1vw;
+    padding: 0 1rem;
+
+}
+/* CSS CHO ẢNH */
+.header-1 .main-header .main-account .main-account-1 img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.header-1 .main-header .main-account .main-account-1{
+    display: flex;
+    align-items: center;
+}
+
+/* <!-- Nội dung 1: MENU  --> */
+.sec-1{
+    width: 100%;
+    background-color: #A2A2F9;
+}
+.sec-1 .ar-1{
+    width: 90%;
+    background-color: #A2A2F9;
+    margin: 0 auto;
+    transition: all 0.4s ease-in-out;
+    padding: 0.3rem 0;
+}
+/* display flex các li trong menu  */
+.sec-1 .ar-1 .main-menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-1 .ar-1 .main-menu ul li .menu-task{
+    color: red;
+    font-family: SVN-Appleberry;
+    color: white;
+    font-size: 1.7vw;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    padding: 0.3rem 1rem;
+    
+}
+/* ============================================= HEADER STICKY ============================================= */
+header.sticky .sec-1{
+    box-shadow: 0 0 1rem black;
+}
+header.sticky .sec-1 .ar-1{
+    width: 90%;
+    background-color: #A2A2F9;
+    margin: 0 auto;
+    padding: 0.6rem 0;
+}
+header.sticky .sec-1 .ar-1 .main-menu ul li .menu-task{
+    color: red;
+    font-family: SVN-Appleberry;
+    color: white;
+    font-size: 1.75vw;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    padding: 0.6rem 1rem;
+}
+/* Hover stk */
+header.sticky .sec-1 .ar-1 .main-menu ul li .menu-task:hover{
+    background-color: #9696FF;
+}
+/* Focus stk */
+header.sticky .sec-1 .ar-1 .main-menu ul li .menu-task:focus{
+    text-shadow: 0 0 1rem black;
+    background-color: #9696FF;
+}
+
+/* Hover  */
+.sec-1 .ar-1 .main-menu ul li .menu-task:hover{
+    background-color: #9696FF;
+}
+/* Focus  */
+.sec-1 .ar-1 .main-menu ul li .menu-task:focus{
+    text-shadow: 0 0 1rem black;
+    background-color: #9696FF;
+}
+
+/* <!-- Nội dung thứ 2: BEST SELLER --> */
+/* FLEX 2 khối  */
+.sec-2{
+    background-color: #FFF1ED;
+    position: relative;
+}
+.sec-2 .ar-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+}
+/* ĐỊNH DẠNG KÍCH THƯỚC ẢNH */
+.sec-2 .ar-2 .img-seller{
+    width: 45%;
+    /* background-color: red; */
+}
+.sec-2 .ar-2 .img-seller img{
+    width: 100%;
+    animation: animated alternate 0.5s linear infinite;
+}
+.sec-2 .ar-2 .text-seller{
+    width: 55%;
+}
+/* CSS CHO TEXT(1) */
+.sec-2 .ar-2 .text-seller p:nth-of-type(1){
+    color: #A2A2F9;
+    font-family: ClassiqueSaigon;
+    font-size: 8vw;
+    /* animation  */
+    animation: go 1.5s infinite linear;
+}
+/* CSS CHO TEXT(2) */
+.sec-2 .ar-2 .text-seller p:nth-of-type(2){
+    color: #FF82B8;
+    font-family: SVN-Appleberry;
+    font-size: 6vw;
+    text-align: right;
+    /* animation  */
+    animation: go 1.5s infinite linear;
+}
+/* CSS CHO BUTTON(1) */
+.sec-2 .ar-2 .text-seller button{
+    background-color: #FFD4C3;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease-in-out;
+    /* margin-left: 30rem; */
+    margin-top: 1.5rem;
+    animation: go 1.5s infinite linear;
+}
+/* HOVER VÀO  */
+.sec-2 .ar-2 .text-seller button:hover{
+    background-color: transparent;
+    border: 1px solid #FFD4C3;
+}
+/* CHO BUTTON sang trái */
+.sec-2 .ar-2 .text-seller .button-r{
+    text-align: right;
+}
+/* CSS CHO a(1) */
+.sec-2 .ar-2 .text-seller a{
+    text-decoration: none;
+    font-family: ClassiqueSaigon;
+    color: white;
+    text-shadow: 0 0 1rem black;
+    font-size: 3vw;
+    transition: all 0.3s ease-in-out;
+}
+.sec-2 .ar-2 .text-seller a:hover{
+    color: #9696FF;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.301);
+}
+
+/* Hiệu ứng bóng nước 1*/
+.sec-2 .water-img {
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+}
+.sec-2 .water-img img{
+    width: 18%;
+    animation: animated alternate 0.5s linear infinite;
+}
+
+/* Hiệu ứng bóng nước 2*/
+.sec-2 .water-img-1 {
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+}
+.sec-2 .water-img-1 img{
+    width: 10%;
+    animation: animated alternate 0.5s linear infinite;
+}
+/* Hiệu ứng bóng nước 3*/
+.sec-2 .water-img-2 {
+    position: absolute;
+    top: 6rem;
+    right: 15rem;
+}
+.sec-2 .water-img-2 img{
+    width: 10%;
+    animation: animated alternate 0.5s linear infinite;
+}
+
+/* Hiệu ứng bóng nước 4*/
+.sec-2 .water-img-3 {
+    position: absolute;
+    top: 30rem;
+    right: 30rem;
+}
+.sec-2 .water-img-3 img{
+    width: 15%;
+    animation: animated alternate 0.5s linear infinite;
+}
+/* Hiệu ứng bóng nước 5*/
+.sec-2 .water-img-4 {
+    position: absolute;
+    top: 3rem;
+    right: 0rem;
+}
+.sec-2 .water-img-4 img{
+    width: 15%;
+    animation: animated alternate 0.5s linear infinite;
+}
+
+/* Hiệu ứng bóng nước 6*/
+.sec-2 .water-img-5 {
+    position: absolute;
+    top: 40rem;
+    right: 5rem;
+}
+.sec-2 .water-img-5 img{
+    width: 20%;
+    animation: animated alternate 0.5s linear infinite;
+}
+/* Hiệu ứng bóng nước 7*/
+.sec-2 .water-img-6 {
+    position: absolute;
+    top: 45rem;
+    right: 50rem;
+}
+.sec-2 .water-img-6 img{
+    width: 10%;
+    animation: animated alternate 0.5s linear infinite;
+}
+
+/* <!-- Nội dung thứ 3: THỜI GIAN LÀM VIỆC --> */
+/* Thẻ cha là hình ảnh  */
+.sec-3{
+    background-image: url(../IMAGES/Girl_drink_milktea.png);
+    height: 80rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* position: sticky;
+    top: 0; */
+    background-color: red;
+}
+/* articel sẽ định dạng 90% */
+.sec-3 .ar-3{
+    width: 90%;
+    /* height: 200px; */
+    /* background-color: #ffa500; */
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.sec-3 .ar-3 .content-full-1{
+    width: 50%;
+    /* background-color: red; */
+    text-align: center;
+    margin-left: auto;
+}
+
+.sec-3 .ar-3 .content-full-1 .text-content{
+    color: #FEFCF8;
+    font-size: 5vw;
+    font-family: SVN-Appleberry;
+}
+/* flex hình tam giác  */
+.sec-3 .ar-3 .content-full-1 .tamgiac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Làm cây que */
+.sec-3 .ar-3 .content-full-1 .tamgiac .thang-white{
+    width: 35%;
+    height: 0.2rem;
+    background-color: #FEFCF8;
+}
+/* làm hình tam giác */
+.sec-3 .ar-3 .content-full-1 .tamgiac .tg-white{
+    width: 0;
+    height: 0;
+    border-left: 0.8rem solid transparent;
+    border-right: 0.8rem solid transparent;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid #FEFCF8;
+}
+
+/* CSS cho chữ thời gian mở  */
+.sec-3 .ar-3 .content-full-1 .text-content-2{
+    color: #FEFCF8;
+    font-size: 2vw;
+    font-family: SVN-Appleberry;
+    padding: 3rem 0;
+}
+
+/* CSS cho button  */
+.sec-3 .ar-3 .content-full-1 .read-sec3{
+    padding: 1rem 3rem;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.5vw;
+    font-family: SVN-Appleberry;
+    background-color: #FEFCF8;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+/* CSS cho button:hover  */
+.sec-3 .ar-3 .content-full-1 .read-sec3:hover{
+    border: 1px solid #A2A2F9;
+    text-shadow: 0 0 0.5rem black;
+}
+
+/* Gọi lớp cha để đẩy lớp con cho đều  */
+.sec-3 .ar-3 .content-full-1:nth-of-type(2){
+    /* background-color: black; */
+    margin-top: 15rem;
+}
+
+/* <!-- Nội dung thứ 4: Thông số của quán cafe --> */
+
+.sec-4{
+    width: 100%;
+    background-color: #FEFCF8;
+    padding: 5rem 0;
+}
+.sec-4 .ar-4{
+    width: 90%;
+    /* background-color: black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-4 .ar-4 .thongso-1{
+    width: 30%;
+    text-align: center;
+    /* background-color: #FF82B8; */
+    border-radius: 1rem;
+    border-bottom: 1rem solid #A2A2F9;
+    background-color: #faa4d5;
+    padding: 1rem 0;
+}
+.sec-4 .ar-4 .thongso-1 i{
+    color: #A2A2F9;
+    font-size: 5vw;
+}
+.sec-4 .ar-4 .thongso-1 .num{
+    color: #FCF3E7;
+    font-family: ClassiqueSaigon;
+    font-size: 5vw;
+
+}
+.sec-4 .ar-4 .thongso-1 .text-sec4{
+    color: #FCF3E7;
+    font-family: ClassiqueSaigon;
+    font-size: 2vw;
+}
+
+/* <!-- Nội dung thứ 5: FEEDBACK TỪ QUÁN --> */
+/* CSS ICON STAR RATING  */
+.checked {
+    color: orange;
+}
+.sec-5{
+    width: 100%;
+    background-color: #FCF3E7;
+    padding: 5rem 0;
+}
+.sec-5 .ar-5{
+    width: 90%;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CSS cho từng nội dung  */
+.sec-5 .ar-5 .feedback-full{
+    text-align: left;
+    width: calc(30% - 3rem);
+    background-color: #FFD4C3;
+    padding: 2rem 0 2rem 4rem;
+    border-radius: 1rem;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+/* HOVER FEEDBACK FULL  */
+.sec-5 .ar-5 .feedback-full:hover{
+    transform: translate(0px, -2rem);
+    box-shadow: 0 0 2rem black;
+}
+.sec-5 .ar-5 .feedback-full > p:nth-of-type(1){
+    font-family: SVN-Appleberry;
+    font-size: 1.5vw;
+    color: white;
+    text-align: left;
+    width: 80%;
+    /* background-color: red; */
+    padding: 1rem 0;
+    text-shadow: 0 0 1rem black;
+}
+/* FLEX HÌNH ẢNH VÀ TÊN  */
+.sec-5 .ar-5 .feedback-full .img-rating{
+    display: flex;
+    align-items: center;
+}
+
+
+.sec-5 .ar-5 .feedback-full .img-rating .img-sec5 img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.sec-5 .ar-5 .feedback-full .img-rating .name-rating{
+    padding-left: 1rem;
+}
+/* CSS CHO NỘI DUNG KHÁCH HÀNG  */
+.sec-5 .ar-5 .feedback-full .img-rating .name-rating p:nth-child(1){
+    font-family: BRITANIC;
+    color: #9696FF;
+    font-size: 1.5vw;
+}
+.sec-5 .ar-5 .feedback-full .img-rating .name-rating p:nth-child(2){
+    font-family: ClassiqueSaigon;
+    color: #FF82B8;
+    font-size: 1vw;
+}
+
+/* LÀM HÌNH TAM GIÁC  */
+.tamgiac-1{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+}
+.tamgiac-1 .thang-white-1{
+    width: 35%;
+    height: 0.1rem;
+    background-color: black;
+}
+.tamgiac-1 .tg-white-1{
+    width: 0;
+    height: 0;
+    border-left: 0.8rem solid transparent;
+    border-right: 0.8rem solid transparent;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid black;
+}
+
+/* CHỮ FEED BACK  */
+
+.sec-5 > p:nth-child(2){
+    color: #7373F8;
+    font-family: SVN-Appleberry;
+    font-size: 6vw;
+    text-align: center;
+    padding: 3rem;
+}
+
+/* <!-- Nội dung thứ 6: HÌNH ẢNH--> */
+.sec-6{
+    width: 100%;
+    background-color: #FEFCF8;
+    padding: 5rem 0;
+}
+.sec-6 .ar-6{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+}
+.sec-6 .ar-6 .img-sec6{
+    width: calc(30%);
+    /* background-color: yellow; */
+    overflow: hidden;
+    border-radius: 3rem 3rem 0 0;
+    position: relative;
+}
+.sec-6 .ar-6 .img-sec6 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+.sec-6 .ar-6 .img-sec6:hover img{
+    transform: scale(1.2);
+}
+/* CSS CHO NỘI DUNG trôi lên  */
+.sec-6 .ar-6 .img-sec6 .textttt{
+    position: absolute;
+    bottom: -120px;
+    background-color: #7373F8;
+    padding: 0.5rem 2rem;
+    transition: all 0.6s ease-in-out;
+}
+.sec-6 .ar-6 .img-sec6 .textttt p:nth-of-type(1){
+    color: white;
+    font-family: ClassiqueSaigon;
+    font-size: 2vw;
+}
+.sec-6 .ar-6 .img-sec6 .textttt p:nth-of-type(2){
+    color: white;
+    font-family: SVN-Appleberry;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+/* KHI HOVER VÀO CHA THÌ CON SẼ  */
+.sec-6 .ar-6 .img-sec6:hover .textttt{
+    bottom: 0;
+    opacity: 0.8;
+}
+
+/* <!-- Nội dung thứ 7: ĐỐI TƯỢNG KHÁCH HÀNG--> */
+.sec-7{
+    width: 100%;
+    background-color: #FEFCF8;
+    padding: 5rem 0;
+}
+.sec-7 > p{
+    color: #FF82B8;
+    text-shadow: 0 0 1rem #7373F8;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: ClassiqueSaigon;
+    padding-bottom: 5rem;
+}
+.sec-7 .ar-7{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* IMG BEERS  */
+.sec-7 .ar-7 .img-beers{
+    width: 10%;
+    /* background-color: yellow; */
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.sec-7 .ar-7 .img-beers img:nth-of-type(2){
+    transition: all 0.3s ease-in-out;
+    bottom: 0;
+    position: relative;
+}
+.sec-7 .ar-7 .img-beers img:nth-of-type(1){
+    position: absolute;
+    top: -100px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.sec-7 .ar-7 .img-beers:hover img:nth-of-type(1){
+    top: 0;
+}
+.sec-7 .ar-7 .img-beers:hover img:nth-of-type(2){
+    bottom: -100px;
+}
+.sec-7 .tamgiac-1{
+    margin-top: 5rem;
+}
+
+
+/* <!-- NỘI DUNG 8: FOOTER  --> */
+.sec-8{
+    width: 100%;
+    background-color: #A2A2F9;
+    padding: 1rem 0 3rem 0;
+}
+.sec-8 footer{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.sec-8 footer .logo-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    border-bottom: 0.2rem solid #FFCE8D;
+}
+/* CSS CHO LOGO */
+.sec-8 footer .logo-main .logo-footer{
+    width: 50%;
+    /* background-color: black; */
+}
+.sec-8 footer .logo-main .logo-footer img{
+    width: 20%;
+}
+
+/* CSS CHO MAIN  */
+.sec-8 footer .logo-main .main-footer{
+    width: 50%;
+    /* background-color: pink; */
+    position: relative;
+}
+.sec-8 footer .logo-main .main-footer ul{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.sec-8 footer .logo-main .main-footer ul li{
+    font-family: SVN-Appleberry;
+    font-size: 1.5vw;
+    padding-left: 2rem;
+}
+.sec-8 footer .logo-main .main-footer ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: block;
+}
+.sec-8 footer .logo-main .main-footer ul li a::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #632FC9;
+    bottom: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+/* KHI HOVER VÀO CHỮ  */
+.sec-8 footer .logo-main .main-footer ul li a:hover:after{
+    transform: scale(1);
+}
+
+
+/* NỘI DUNG THỨ 2 trong FOOTER  */
+.sec-8 footer .content-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.sec-8 footer .content-footer .contact-footer{
+    width: 20%;
+    /* background-color: brown; */
+}
+.sec-8 footer .content-footer .contact-footer > p{
+    font-family: SVN-Appleberry;
+    color: #FFCE8D;
+    font-size: 3vw;
+}
+.sec-8 footer .content-footer .contact-footer .icon-footer{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+.sec-8 footer .content-footer .contact-footer .icon-footer i{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    width: 10%;
+}
+.sec-8 footer .content-footer .contact-footer .icon-footer p{
+    color: white;
+    font-weight: lighter;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NỘI DUNG THỨ 3 TRONG footer */
+/* .sec-8 footer .content-footer .sigup-footer{
+    /* width: 33.3333%; */
+    /* background-color: green; */
+
+.sec-8 footer .content-footer .sigup-footer > p{
+    font-family: SVN-Appleberry;
+    color: #FFCE8D;
+    font-size: 3vw;
+}
+.sec-8 footer .content-footer .sigup-footer .input-footer{
+    display: flex;
+    align-items: center;
+    /* background-color: #7373F8; */
+    width: 100%;
+    padding: 0.7rem 0;
+    border-bottom: 0.1rem solid white;
+}
+.sec-8 footer .content-footer .sigup-footer .input-footer i{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.2vw;
+    width: 10%;
+}
+.sec-8 footer .content-footer .sigup-footer .input-footer input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+
+}
+.sec-8 footer .content-footer .sigup-footer .input-footer input::placeholder{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8vw;
+}
+/* CHECKBOX FOOTER  */
+.sec-8 footer .content-footer .sigup-footer .checkbox-footer{
+    padding: 1.5rem 0 0 0;
+    /* background-color: yellow; */
+    display: flex;
+}
+.sec-8 footer .content-footer .sigup-footer .checkbox-footer input{
+    width: 1rem;
+}
+.sec-8 footer .content-footer .sigup-footer .checkbox-footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 0.8vw;
+    padding-left: 1rem;
+}
+
+/* NOOIJ DUNG 3  */
+.sec-8 footer .content-footer .work-footer{
+    text-align: right;
+    /* width: 33.3333%; */
+    /* background-color: orange; */
+}
+.sec-8 footer .content-footer .work-footer > p{
+    font-family: SVN-Appleberry;
+    color: #FFCE8D;
+    font-size: 3vw;
+}
+.sec-8 footer .content-footer .work-footer .text-works p{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5rem;
+}
+
+/* ICON SOCIAL MEDIA  */
+.sec-8 footer .icon-media{
+    margin-top: 1rem;
+}
+.sec-8 footer .icon-media i{
+    padding: 1rem;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1vw;
+}
+.sec-8 footer .icon-media i:hover{
+    color: #A2A2F9;
+    background-color: #FFCE8D;
+}
+.sec-8 a{
+    color: black;
+    text-decoration: none;
+}
+
+/* COPYRIGHT  */
+.copyright{
+    background-color: #FFCE8D;
+    padding: 1rem;
+    text-align: center;
+    font-family: ClassiqueSaigon;
+    text-shadow: 0 0 1px #632FC9;
+}
+
+
+/* MÀN HÌNH 1440PX  */
+@media only screen and (max-width: 1440px) {
+    
+    /* <!-- Nội dung thứ 2: BEST SELLER --> */
+    /* FLEX 2 khối  */
+    .sec-2{
+        background-color: #FFF1ED;
+        position: relative;
+        padding: 1.1rem 0;
+    }
+    /* HIỆU ỨNG BÓNG NƯỚC 1 */
+    .sec-2 .water-img-2 {
+        position: absolute;
+        top: 6rem;
+        right: 15rem;
+    }
+    .sec-2 .water-img-2 img{
+        width: 15%;
+        animation: animated alternate 0.5s linear infinite;
+        /* background-color: red; */
+    }
+    /* HIỆU ỨNG BÓNG NƯỚC 2 */
+    .sec-2 .water-img-6 {
+        position: absolute;
+        top: 38rem;
+        right: 50rem;
+    }
+    .sec-2 .water-img-6 img{
+        width: 10%;
+        animation: animated alternate 0.5s linear infinite;
+    }
+    /* HIỆU ỨNG BÓNG NƯỚC 3 */
+    .sec-2 .water-img-5 {
+        position: absolute;
+        top: 32rem;
+        right: 2rem;
+        /* background-color: red; */
+    }
+    .sec-2 .water-img-5 img{
+        width: 18%;
+        animation: animated alternate 0.5s linear infinite;
+    }
+    /* Hiệu ứng bóng nước 4*/
+    .sec-2 .water-img {
+        position: absolute;
+        top: 3rem;
+        left: 8rem;
+        /* background-color: red; */
+    }
+    .sec-2 .water-img img{
+        width: 18%;
+        animation: animated alternate 0.5s linear infinite;
+    }
+
+    /* Hiệu ứng bóng nước 5*/
+    .sec-2 .water-img-1 {
+        position: absolute;
+        top: 8rem;
+        left: 2rem;
+        /* background-color: red; */
+    }
+    .sec-2 .water-img-1 img{
+        width: 10%;
+        animation: animated alternate 0.5s linear infinite;
+    }
+}
+
+/* MÀN HÌNH 1024 PX  */
+@media only screen and (max-width: 1024px) {
+    /* sửa header  */
+    .header-1 .main-header .main-img{
+        width: 12%;
+        /* background-color: brown; */
+    }
+    /* CSS CHO CHỮ CỐM MILKTEA  */
+    .header-1 .main-header .main-text-full .middle .main-text p{
+        color: #FF82B8;
+        font-family: ClassiqueSaigon;
+        font-size: 3vw;
+    }
+    /* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA LOGO VÀ INPUT  */
+    .header-1 .main-header .main-text-full{
+        /* background-color: purple; */
+        width: 30%;
+        display: table;
+        padding-left: 1%;
+        background-color: red;
+    }
+    .header-1 .main-header .main-text-full .middle{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

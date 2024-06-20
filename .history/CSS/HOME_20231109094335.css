@@ -1,0 +1,45 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER CHA */
+header{
+    width: 100%;
+    background-color: yellow;
+}
+/* FLEX TẤT CẢ GTRI */
+header .main-header{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+/* FLEX LOGO VÀ THANH INPUT  */
+header .main-header .FLEX-1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: green;
+}
+/* ĐẶT GTRI CHO THẺ CHA CỦA IMG  */
+header .main-header .FLEX-1 .main-img{
+    width: 30%;
+    background-color:  red;
+}
+/* Đặt kích thước cho hình ảnh */
+header .main-header .FLEX-1 .main-img img{
+    width: 100%;
+}
+
+/* Thẻ cha của text thương hiệu và input  */
+header .main-header .FLEX-1 .main-text-full{
+
+}
+
+header .main-header .FLEX-1 .main-text-full .main-text p{
+    color: #FF82B8;
+    font-family: ClassiqueSaigon;
+    font-size: 30v;
+}
+
+

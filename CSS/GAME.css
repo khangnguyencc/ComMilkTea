@@ -1,0 +1,412 @@
+/* BODY */
+* {
+     padding: 0;
+     margin: 0;
+     list-style-type: none;
+     box-sizing: border-box;
+}
+
+header {
+     position: sticky;
+     top: 0;
+     z-index: 9999;
+}
+
+.header-1 {
+     width: 100%;
+     background-color: #FEFCF8;
+     margin-top: 1rem;
+}
+
+.header-1 .main-header {
+     width: 50%;
+     display: flex;
+     background-color: #FFFCDC;
+     margin: 0 auto;
+     align-items: center;
+     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header-1 .main-header .main-img {
+     width: 8%;
+}
+
+.header-1 .main-header .main-img img {
+     cursor: pointer;
+     width: 100%;
+}
+
+.header-1 .main-text-full .main-text {
+     text-align: center;
+}
+
+.header-1 .main-text-full .main-text p {
+     margin-left: 20%;
+     color: #FF82B8;
+     font-family: ClassiqueSaigon;
+     font-size: 2vw;
+}
+
+.header-1 .HHAccount {
+     display: flex;
+     align-items: center;
+     margin-left: 25%;
+}
+
+.profile-picture img {
+     width: 2.5rem;
+     height: 2.5rem;
+     object-fit: cover;
+     cursor: pointer;
+     border-radius: 50%;
+}
+
+.HHAccount p,
+.HHAccount a {
+     font-family: SVN-Appleberry;
+     margin: 0 1em 0;
+     font-size: 1.2vw;
+}
+
+.sec-1 {
+     width: 100%;
+     position: sticky;
+     z-index: 1;
+}
+
+.sec-1 .Border1 {
+     width: 50%;
+     height: 80vh;
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #BBC6FF;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+
+.Border23 {
+     display: flex;
+}
+
+.sec-1 .Border1 .Game p {
+     font-family: SVN-Appleberry;
+     font-size: 2vw;
+}
+
+.Border23 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #F6DAE7;
+     width: 98%;
+     height: 70vh;
+     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     border: 1px solid black;
+}
+
+.Border2 {
+     width: 45%;
+     height: 43vh;
+     border: 1px solid black;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.Border3 {
+     width: 45%;
+     height: 43vh;
+     border: 1px solid black;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.Border2, .Border3{
+     font-size: 5em;
+}
+.sec-1 .button {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     position: absolute;
+     top: 83%;
+}
+.sec-1 button {
+     width: 9vw;
+     height: 10vh;
+     font-size: 3rem;
+     border-radius: 40px;
+     background-color: #e1f7e5;
+     font-family: ClassiqueSaigon;
+     cursor: pointer;
+     transition-duration: 0.4s;
+     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+     border: none;
+}
+.sec-1 .button .ion-android-share-alt {
+     font-size: 4rem;
+     margin-left: 20%;
+
+}
+.sec-1 button:hover {
+     background-color: #e1f7e5;
+     width: 11vw;
+     height: 12vh;
+     font-size: 4rem;
+}
+@keyframes zoom-in {
+     0% {
+          transform: scale(1);
+     }
+
+     50% {
+          transform: scale(1.1);
+     }
+
+     100% {
+          transform: scale(1);
+     }
+}
+.main-img img {
+     animation: zoom-in 3s infinite;
+}
+.sec-2 {
+     align-items: center;
+     opacity: 0;
+     transition: opacity 0.6s ease;
+     position: absolute;
+     top: -1px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+.sec-2.visible {
+     opacity: 1;
+}
+.sec-2 .arr1 {
+     background-color: lightgrey;
+     text-align: center;
+     border-radius: 13px;
+     width: 40%;
+     height: 33vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     z-index: 2;
+}
+.sec-2 .arr1 p {
+     font-family: ClassiqueSaigon;
+     font-size: 1.5rem;
+}
+.sec-2 .arr1 button {
+     font-family: SVN-Appleberry;
+     font-size: 1.5rem;
+}
+.sec-2 {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+}
+.NutNhan button {
+     border-radius: 8px;
+}
+.sec-3 {
+     opacity: 0;
+     visibility: hidden;
+     transition: opacity 0.5s ease, visibility 0.5s ease;
+     align-items: center;
+     justify-content: center;
+}
+.HelpGame {
+     cursor: pointer;
+}
+.help-visible {
+     display: flex;
+}
+.sec-3 .Help {
+     width: 47%;
+     height: 50vh;
+     background-color: lightgrey;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border: lightgrey;
+     border-radius: 10%;
+}
+.sec-3 .Help p {
+     font-size: 1.5rem;
+     font-family: SVN-Appleberry;
+     font-weight: 500;
+     text-align: center;
+}
+.blur-effect {
+     filter: blur(15px);
+     pointer-events: none;
+}
+.sec-3.show {
+     display: flex;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 9999;
+     opacity: 1;
+     visibility: visible;
+}
+
+
+@media only screen and (max-width: 1441px){
+     .sec-1 .button{
+          top: 85%
+     }
+}
+
+@media only screen and (max-width: 1025px){
+     .sec-1 .Border1 #playButton {
+          font-size: 2.5rem;
+          width: 15%;
+          height: 10vh;
+          margin-bottom: 40%;
+     }
+     .Border3, .Border2 {
+          height: 35vh;
+          margin-bottom: 18%;
+     }
+     .Border2, .Border3 i{
+          font-size: 4.2rem;
+     }
+     .sec-1 .button{
+          top: 80%
+     }
+     .sec-1 .Border1{
+          height: 65vh;
+     }
+     .Border23{
+          height: 55vh;
+     }
+}
+
+@media only screen and (max-width: 769px){
+     .sec-2 .arr1{
+          bottom: 10%;
+          height: 23vh;
+     }
+     .sec-1 .button{
+          top: 75%
+     }
+     .sec-1 .Border1 .Game p{
+          font-size: 4vw;
+     }
+     .sec-1 .Border1{
+          height: 53vh;
+     }
+     .Border23{
+          height: 40vh;
+     }
+     .Border3, .Border2 {
+          height: 20vh;
+          margin-bottom: 15%;
+     }
+     .Border2, .Border3 i{
+          font-size: 2.5rem;
+     }
+     .sec-1 .Border1 #playButton {
+          font-size: 1.75rem;
+          width: 12%;
+          height: 8vh;
+          margin-bottom: 40%;
+     }
+     .sec-1 .Border1 .ion-android-share-alt {
+          font-size: 2.75rem;
+          margin-bottom: 40%;
+     }
+     .header-1 .HHAccount{
+          margin-left: 22%;
+     }
+     .profile-picture img{
+          width: 1.75rem;
+          height: 1.75rem;
+     }
+}
+
+@media only screen and (max-width: 426px){
+     .sec-2 .arr1{
+          bottom: 20%;
+          height: 23vh;
+          width: 70%;
+     }
+     .sec-1 .Border1 #playButton {
+          font-size: 1.6rem;
+          width: 18%;
+          height: 7vh;
+          margin-bottom: 40%;
+     }
+     .sec-1 .Border1 .ion-android-share-alt {
+          font-size: 2.6rem;
+          margin-bottom: 40%;
+     }
+     .Border2, .Border3 i{
+          font-size: 2rem;
+     }
+     .Border3, .Border2 {
+          height: 15vh;
+          margin-bottom: 30%;
+     }
+     .sec-1 .Border1{
+          height: 43vh;
+          width: 80%;
+     }
+     .Border23{
+          height: 35vh;
+     }
+     .sec-1 .Border1 .Game p{
+          font-size: 3vw;
+     }
+     .sec-1 .Border1 .Game #countdown{
+          font-size: 3vw;
+     }
+     .header-1 .HHAccount{
+          margin-left: 15%;
+     }
+     .profile-picture img{
+          width: 1.2rem;
+          height: 1.2rem;
+     }
+     .header-1 .HHAccount a{
+          font-size: 3vw;
+     }
+     .header-1 .HHAccount a i{
+          font-size: 3vw;
+     }
+     .header-1 .HHAccount p{
+          font-size: 3vw;
+     }
+     .header-1 .main-header{
+          width: 80%;
+     }
+}
+@media only screen and (max-width: 426px){
+     .sec-1 .Border1 .Game p{
+          font-size: 4vw;
+     }
+}
+@media only screen and (max-width: 321px){
+     .sec-2 .arr1{
+          bottom: 20%;
+          height: 23vh;
+          width: 50%;
+     }
+     .sec-2 .arr1 .thongbao{
+          font-size: 1em;
+     }
+}

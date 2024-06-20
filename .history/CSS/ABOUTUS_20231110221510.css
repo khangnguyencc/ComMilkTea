@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- NỘI DUNG 9: MÌNH TRÀ SỮA NHÉ  --> */
+.sec-9{
+    width: 100%;
+    background-color: aqua;
+}
+.sec-9 .ar-9{
+    width: 90%;
+    margin: 0 auto;
+    background-color: brown;
+}
+.sec-9 .ar-9 .milktea-drink{
+    display: flex;
+}
+/* CSS CHO ẢNH  */
+.sec-9 .ar-9 .milktea-drink .milktea-img{
+    width: calc(33.3333%);
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img img{
+    width: 10rem;
+    height: 15rem;
+    object-fit: contain;
+}
+/* CSS CHO CHỮ  */
+.sec-9 .ar-9  .text-milktea

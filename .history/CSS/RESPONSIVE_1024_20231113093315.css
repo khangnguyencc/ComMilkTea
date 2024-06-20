@@ -1,0 +1,9 @@
+@media  screen and (max-width: 1024px) {
+    .sec-3 p {
+        font-size: 6vw;
+    }
+    .sec-4 p {
+        width: 25%;
+        font-size: 2vw;
+    }
+}

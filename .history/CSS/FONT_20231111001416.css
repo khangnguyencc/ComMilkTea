@@ -1,0 +1,20 @@
+@font-face {
+    font-family: ClassiqueSaigon;
+    src: url(../FONTS/ClassiqueSaigon\ Full.otf);
+}
+
+@font-face {
+    font-family: BRITANIC;
+    src: url(../FONTS/BRITANIC.ttf);
+}
+
+@font-face {
+    font-family: SVN-Appleberry;
+    src: url(../FONTS/SVN-Appleberry.ttf);
+}
+@font-face {
+    font-family: AlumniSans-Light;
+    src: url(../FONTS/AlumniSans-Light.otf);
+}
+@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,100&family=Open+Sans:wght@300&display=swap');

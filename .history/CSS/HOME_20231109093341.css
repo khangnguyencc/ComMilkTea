@@ -1,0 +1,35 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER CHA */
+header{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+/* FLEX TẤT CẢ GTRI */
+header .main-header{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+header .main-header .FLEX-1{
+    display: flex;
+}
+/* ĐẶT GTRI CHO THẺ CHA CỦA IMG  */
+header .main-header .FLEX-1 .main-img{
+    width: 10%;
+    background-color:  red;
+}
+/* Đặt kích thước cho hình ảnh */
+header .main-header .FLEX-1 .main-img img{
+    width: 100%;
+}
+
+header .main-header .FLEX-1 .main-text-full{
+
+}
+
+

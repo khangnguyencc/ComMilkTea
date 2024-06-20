@@ -1,0 +1,6 @@
+/* HAMBURGER  */
+@media (max-width: 425px) {
+    header{
+        display: none;
+    }
+}

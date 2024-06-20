@@ -1,0 +1,35 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* THẺ HEADER CHA 100%  */
+header{
+    width: 100%;
+    background-color: BLACK;
+}
+/* PHẦN MAIN CHỨA 90% */
+header .main-header{
+    width: 90%;
+    display: flex;
+    background-color: yellow;
+    margin: 0 auto;
+}
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA ẢNH  */
+header .main-header .main-img{
+    width: 10%;
+    background-color: red;
+}
+/* ĐẶT ĐỘ LỚN CHO IMG */
+header .main-header .main-img img{
+    width: 100%;
+}
+/******/
+/* ĐẶT GIÁ TRỊ CHO THẺ CHA CỦA LOGO VÀ INPUT  */
+header .main-header .main-text-full{
+    background-color: purple;
+    width: 20%;
+}
+
+

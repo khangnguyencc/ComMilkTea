@@ -1,0 +1,303 @@
+main {
+    background-color: #FEFCF8;
+}
+html {
+    scroll-behavior: smooth;
+}
+.sec-3-1 {
+    margin : 2rem 0 2rem 0;
+    text-align: center;
+}
+
+.sec-3-1 p {
+    font-size: 4vw;
+    color: #7373F8;
+    text-shadow: 1px 3px 3px #7373F8;
+}
+.sec-3-1 .sec-3-linetittle{
+    width: 25%;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: #7373F8;
+}
+
+.sec-4-1 {
+    text-align: center;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+.sec-4-1 .danhsach {
+    text-decoration: none;
+    color: black;
+    width: 26%;
+    font-size: 1.7vw;
+    padding: 0.4em 0;
+}
+.sec-4-1 a:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.sec-5-1 {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.sec-5-1 .sanpham {
+    display: flex;
+    padding: 5rem 8rem;
+    justify-content: space-between;
+
+}
+
+.sec-5-1 .sanpham .sanpham_hinhanh{
+    width: 40%;
+}
+.sec-5-1 .sanpham .sanpham_hinhanh img {
+    width: 70%;
+}
+.sec-5-1 .sanpham .sanpham_thongtin {
+    width: 55%;
+}
+.sec-5-1 .sanpham .sanpham_thongtin h2 {
+    font-size: 1.9vw;
+    margin-top: 3.5rem;
+
+}
+.sec-5-1 .sanpham .sanpham_thongtin P {
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+
+.sec-5-1 .sanpham2 {
+    display: flex;
+    padding: 6rem 8rem;
+    background-color: #F3F2F2;
+    justify-content: space-between;
+
+}
+
+.sec-5-1 .sanpham2 .sanpham_hinhanh2{
+    width: 40%;
+}
+.sec-5-1 .sanpham2 .sanpham_hinhanh2 img {
+    width: 70%;
+    margin-left: 30%;
+    
+}
+.sec-5-1 .sanpham2 .sanpham_thongtin2 {
+    width: 55%;
+    margin-left: 4.2rem;
+}
+.sec-5-1 .sanpham2 .sanpham_thongtin2 h2 {
+    font-size: 1.9vw;
+    margin-top: 3.5rem;
+
+}
+.sec-5-1 .sanpham2 .sanpham_thongtin2 P {
+    font-size: 1.5vw;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+/* responsive  */
+@media screen and (max-width: 1025px) {
+
+    .sec-4-1 .danhsach {
+        text-decoration: none;
+        color: black;
+        width: 30%;
+        font-size: 2vw;
+        padding: 0.4em 0;
+    }
+
+
+    .sec-5-1 {
+        margin-top: 0;
+    }
+    .sec-5-1 .sanpham {
+        padding: 3rem 6rem;
+    }
+    .sec-5-1 .sanpham .sanpham_hinhanh{
+        width: 40%;
+    }
+    .sec-5-1 .sanpham .sanpham_hinhanh img {
+        width: 90%;
+    }
+    .sec-5-1 .sanpham .sanpham_thongtin {
+        width: 55%;
+    }
+    .sec-5-1 .sanpham .sanpham_thongtin h2 {
+        font-size: 2.5vw;
+    }
+    .sec-5-1 .sanpham .sanpham_thongtin P {
+        font-size: 1.7vw;
+
+    }
+    
+    .sec-5-1 .sanpham2 {
+        padding: 3rem 6rem;
+    }
+    
+    .sec-5-1 .sanpham2 .sanpham_hinhanh2{
+        width: 40%;
+    }
+    .sec-5-1 .sanpham2 .sanpham_hinhanh2 img {
+        width: 90%;
+        
+    }
+    .sec-5-1 .sanpham2 .sanpham_thongtin2 {
+        width: 55%;
+    }
+    .sec-5-1 .sanpham2 .sanpham_thongtin2 h2 {
+        font-size: 2.5vw;
+    
+    }
+    .sec-5-1 .sanpham2 .sanpham_thongtin2 P {
+        font-size: 1.7vw;
+
+    }
+
+}
+
+
+@media screen and (max-width: 769px) {
+
+    .sec-4 .danhsach {
+        width: 30%;
+        font-size: 2.5vw;
+        padding: 0.4em 0;
+    }
+
+
+    .sec-5 {
+        margin-top: 0;
+    }
+    .sec-5 .sanpham {
+        padding: 3rem 4rem;
+    }
+    .sec-5 .sanpham .sanpham_hinhanh{
+        width: 40%;
+    }
+    .sec-5 .sanpham .sanpham_hinhanh img {
+        width: 90%;
+    }
+    .sec-5 .sanpham .sanpham_thongtin {
+        width: 55%;
+    }
+    .sec-5 .sanpham .sanpham_thongtin h2 {
+        font-size: 3.5vw;
+        margin-top: 0;
+    
+    }
+    .sec-5 .sanpham .sanpham_thongtin P {
+        font-size: 2.3vw;
+
+    }
+    
+    .sec-5 .sanpham2 {
+        padding: 3rem 4rem;
+
+    }
+    
+    .sec-5 .sanpham2 .sanpham_hinhanh2{
+        width: 40%;
+    }
+    .sec-5 .sanpham2 .sanpham_hinhanh2 img {
+        width: 90%;
+        
+    }
+    .sec-5 .sanpham2 .sanpham_thongtin2 {
+        width: 55%;
+        margin-left: 2rem;
+    }
+    .sec-5 .sanpham2 .sanpham_thongtin2 h2 {
+        font-size: 3.5vw;
+        margin-top: 1.9rem;
+    }
+    .sec-5 .sanpham2 .sanpham_thongtin2 P {
+        font-size: 2.3vw;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+
+    .sec-4 .danhsach {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 3.5vw;
+    }
+
+
+    .sec-5 .sanpham {
+        display: block;
+        padding: 3rem 2rem;
+    
+    }
+    
+
+    .sec-5 .sanpham .sanpham_hinhanh{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    .sec-5 .sanpham .sanpham_hinhanh img {
+        width: 100%;
+    }
+    .sec-5 .sanpham .sanpham_thongtin {
+        width: 100%;
+        text-align: center;
+       
+    }
+    .sec-5 .sanpham .sanpham_thongtin h2 {
+        font-size: 4.5vw;
+        margin-top: 0;
+    }
+    .sec-5 .sanpham .sanpham_thongtin P {
+        font-size: 3.2vw;
+    }
+    
+
+
+
+
+
+
+    .sec-5 .sanpham2 {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 2rem;
+    }
+    
+    .sec-5 .sanpham2 .sanpham_hinhanh2{
+        width: 80%;
+        margin-left: 10%;
+        order: 1;
+    }
+    .sec-5 .sanpham2 .sanpham_hinhanh2 img {
+        width: 100%;
+        margin: 0;
+        
+    }
+    .sec-5 .sanpham2 .sanpham_thongtin2 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        order: 2;
+    }
+    .sec-5 .sanpham2 .sanpham_thongtin2 h2 {
+        font-size: 4.5vw;
+        margin-top: 0;
+    }
+    .sec-5 .sanpham2 .sanpham_thongtin2 P {
+        font-size: 3.2vw;
+    }
+
+}

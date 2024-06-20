@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- NỘI DUNG 9: MÌNH TRÀ SỮA NHÉ  --> */
+.sec-9{
+    width: 100%;
+    background-color: aqua;
+}
+.sec-9 .ar-9{
+    width: 90%;
+    margin: 0 auto;
+    background-color: brown;
+}
+.sec-9 .ar-9 .milktea-drink{
+    display: flex;
+    justify-content: space-between;
+}
+/* CSS CHO ẢNH  */
+.sec-9 .ar-9 .milktea-drink .milktea-img{
+    width: calc(30%);
+    background-color: aquamarine;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img img{
+    width: 10rem;
+    height: 15rem;
+    object-fit: contain;
+}
+/* CSS CHO CHỮ  */
+.sec-9 .ar-9 .milktea-drink .text-milktea{
+    width: 70%;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(1){
+    color: #FF96D1;
+    font-family: ClassiqueSaigon;
+    font-size: 2.5vw;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea .row-drink{
+    width: 50%;
+    height: 0.25rem;
+    background-color: #FFCE8D;
+    box-shadow: 0 0 1px black;
+    margin: 0 auto;
+}

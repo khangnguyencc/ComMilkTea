@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <title>Document</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+     <link rel="stylesheet" href="../CSS/ANIMATION.css">
+     <link rel="stylesheet" href="../CSS/FONT.css">
+     <link rel="stylesheet" href="../CSS/GAME.css">
+     <script src="https://kit.fontawesome.com/1d1d7d2471.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+<body>
+     <header class="header-1">
+          <div class="main-header">
+               <!-- ĐÂY LÀ LOGO CỐM MILK TEA -->
+               <div class="main-img" data-aos="fade-right">
+                    <img src="../IMAGES/cốm milktea logo.png" alt="LOGO CỐM MILKTEA">
+               </div>
+               <!-- ĐÂY LÀ THẺ BỐ CHỨA TÊN THƯƠNG HIỆU -->
+               <div class="main-text-full" data-aos="fade-up">
+                    <div class="middle">
+                         <!-- ĐÂY LÀ TEXT THƯƠNG HIỆU -->
+                         <div class="main-text">
+                              <p>CỐMMILKTEA</p>
+                         </div>
+                    </div>
+               </div>
+               <!-- CHỨA HELP VÀ HOME ACCOUNT -->
+               <div class="HHAccount">
+                    <p style="cursor: pointer;" class="HelpGame" onclick="toggleSec3()">Help</p>
+                    <a style="text-decoration: none;" href="HOME.html">Home&nbsp<i style="font-size: 1vw;"
+                              class="fa fa-sign-out"></i></a>
+                    <p>My account</p>
+                    <div class="profile-picture">
+                         <img src="../IMAGES/My Acount.png" alt="">
+                    </div>
+               </div>
+          </div>
+     </header>
+     <section class="sec-1">
+          <article class="Border1">
+               <div class="Game">
+                    <p>Kéo búa bao - Siêu Voucher</p>
+                    <div style="font-family: SVN-Appleberry; font-size: 1.5rem;" id="countdown">
+                         00:00:00</div>
+
+               </div>
+               <div class="Border23">
+                    <div class="Border2">
+                         <i class="fas fa-hand-rock"></i>
+                         <i class="fas fa-hand-paper"></i>
+                         <i class="fas fa-hand-scissors"></i>
+                    </div>
+                    <div class="Border3">
+                         <i class="fas fa-hand-rock"></i>
+                         <i class="fas fa-hand-paper"></i>
+                         <i class="fas fa-hand-scissors"></i>
+                    </div>
+               </div>
+               <div class="button">
+                    <button id="playButton">Play</button>
+                    <a href=""><i class="ion-android-share-alt"></i></a>
+               </div>
+          </article>
+     </section>
+     <section class="sec-2">
+          <article class="arr1">
+               <div class="thongbao">
+                    <p>Nhận 5 lượt chơi trò chơi - kiếm Voucher giảm giá</p>
+               </div> <br>
+               <div class="NutNhan">
+                    <button style="cursor: pointer;" id="Nhanbutton">Xác Nhận</button>
+               </div>
+          </article>
+     </section>
+     <section class="sec-3">
+          <div class="Help">
+               <p>- Mỗi ngày đăng nhập vào tài khoản sẽ nhận 5 lượt chơi miễn phí</p>
+               <p>- Nếu thắng 3 trên 5 lượt chơi miễn phí sẽ nhận 1 mã Voucher giảm giá bất kỳ</p>
+               <p>- Nếu không thể thắng thì quay lại vào sau 24 tiếng kể từ lúc nhận lượt</p>
+               <p>- Chúc bạn may mắn !!</p>
+          </div>
+     </section>
+     <script>
+          var iconrandom1;
+          var iconrandom2;
+          var playCount = 0; // Số lần chơi đã thực hiện
+          var maxPlayCount = 5; // Số lần chơi tối đa trong một ngày
+          var winCount = 0;
+          var countdownStarted = false;
+
+          function StartGame() {
+               if (playCount >= maxPlayCount) {
+                    alert('Bạn đã hết lượt chơi của ngày hôm nay. Hãy quay lại vào ngày mai.');
+                    if (!countdownStarted) {
+                         startCountdown(24 * 60 * 60);
+                         countdownStarted = true;
+                    }
+                    return;
+               }
+               playCount++;
+               // Xóa các biểu tượng đã hiển thị trước đó
+               var displayedIcons = document.querySelectorAll('.displayed-icon');
+               displayedIcons.forEach(function (icon) {
+                    icon.remove();
+               });
+               var intervalId;
+               // Hàm thực hiện chọn, ẩn và hiển thị icon
+               function selectAndDisplayIcons() {
+                    // Lấy danh sách các thẻ <i> trong Border2 và Border3
+                    var iconsBorder2 = document.querySelectorAll('.Border2 i');
+                    var iconsBorder3 = document.querySelectorAll('.Border3 i');
+                    // Lưu mảng các thẻ <i> vào biến
+                    var iconArrayBorder2 = Array.from(iconsBorder2);
+                    var iconArrayBorder3 = Array.from(iconsBorder3);
+                    // Chọn ngẫu nhiên một thẻ <i> từ mỗi mảng
+                    var randomIndexBorder2 = Math.floor(Math.random() * iconArrayBorder2.length);
+                    var randomIndexBorder3 = Math.floor(Math.random() * iconArrayBorder3.length);
+                    iconrandom1 = iconArrayBorder2[randomIndexBorder2];
+                    iconrandom2 = iconArrayBorder3[randomIndexBorder3];
+                    // Ẩn các biểu tượng không được chọn ngẫu nhiên
+                    for (var i = 0; i < iconsBorder2.length; i++) {
+                         if (iconsBorder2[i] !== iconrandom1) {
+                              iconsBorder2[i].style.display = 'none';
+                         } else {
+                              iconsBorder2[i].style.display = 'block';
+                         }
+                    }
+                    for (var j = 0; j < iconsBorder3.length; j++) {
+                         if (iconsBorder3[j] !== iconrandom2) {
+                              iconsBorder3[j].style.display = 'none';
+                         } else {
+                              iconsBorder3[j].style.display = 'block';
+                         }
+                    }
+                    // Hiển thị iconrandom1 và iconrandom2 trong HTML
+                    var displayDiv1 = document.createElement('div');
+                    displayDiv1.classList.add('displayed-icon');
+                    displayDiv1.appendChild(iconrandom1.cloneNode(true));
+                    document.body.appendChild(displayDiv1);
+                    var displayDiv2 = document.createElement('div');
+                    displayDiv2.classList.add('displayed-icon');
+                    displayDiv2.appendChild(iconrandom2.cloneNode(true));
+                    document.body.appendChild(displayDiv2);
+                    // Phép so sánh giữa các biểu tượng
+
+               }
+               // Bắt đầu vòng lặp và thiết lập thời gian lặp lại là 1 giây
+               intervalId = setInterval(selectAndDisplayIcons, 110);
+               // Dừng vòng lặp sau 3,5 giây
+               setTimeout(function () {
+                    clearInterval(intervalId);
+                    var playerIcon = iconrandom1.classList[1]; // Lấy tên class của biểu tượng người chơi
+                    var machineIcon = iconrandom2.classList[1]; // Lấy tên class của biểu tượng máy chơi
+                    // Kiểm tra các trường hợp và hiển thị thông báo tương ứng
+                    if ((playerIcon === 'fa-hand-rock' && machineIcon === 'fa-hand-scissors') ||
+                         (playerIcon === 'fa-hand-scissors' && machineIcon === 'fa-hand-paper') ||
+                         (playerIcon === 'fa-hand-paper' && machineIcon === 'fa-hand-rock')) {
+                         alert('Người thắng!');
+                         winCount++;
+                    } else if ((playerIcon === 'fa-hand-rock' && machineIcon === 'fa-hand-paper') ||
+                         (playerIcon === 'fa-hand-scissors' && machineIcon === 'fa-hand-rock') ||
+                         (playerIcon === 'fa-hand-paper' && machineIcon === 'fa-hand-scissors')) {
+                         alert('Người thua!');
+                    } else {
+                         alert('Hòa nhau!');
+                    }
+                    if (winCount === 3) {
+                         // Tạo mã voucher ngẫu nhiên
+                         var voucherCode = generateVoucherCode(10);
+                         alert('Chúc mừng! Bạn đã thắng 3 lần. Mã voucher của bạn là: ' + voucherCode);
+                    }
+               }, 3500);
+
+          }
+          // Gắn kết sự kiện click của nút "Play" với hàm StartGame()
+          var playButton = document.getElementById('playButton');
+          playButton.addEventListener('click', StartGame);
+          function generateVoucherCode(length) {
+               var characters = '1Q5RzvXJf4xd8HcOTe9NGZ2tnpYlD0IwFj7SBKrL6iyqPMsbW3omhCkVgEaUuA';
+               var voucherCode = '';
+               for (var i = 0; i < length; i++) {
+                    var randomIndex = Math.floor(Math.random() * characters.length);
+                    voucherCode += characters.charAt(randomIndex);
+               }
+               return voucherCode;
+          }
+          function startCountdown(durationInSeconds) {
+               const countdownElement = document.getElementById('countdown');
+               let remainingTime = durationInSeconds;
+               function updateCountdown() {
+                    const hours = Math.floor(remainingTime / 3600);
+                    const minutes = Math.floor((remainingTime % 3600) / 60);
+                    const seconds = remainingTime % 60;
+                    // Hiển thị thời gian định dạng hh:mm:ss
+                    countdownElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                    // Giảm thời gian còn lại
+                    remainingTime--;
+                    // Kiểm tra nếu thời gian còn lại là âm hoặc bằng 0
+                    if (remainingTime < 0) {
+                         clearInterval(countdownInterval);
+                         countdownElement.textContent = "Hết giờ!";
+                    }
+               }
+               // Gọi hàm cập nhật mỗi giây
+               const countdownInterval = setInterval(updateCountdown, 1000);
+          }
+          //Hiển thị trợ giúp
+          function toggleSec3() {
+               var sec3 = document.querySelector('.sec-3');
+               sec3.classList.toggle('show');
+          }
+          //Làm mờ HTML khi bấm trợ giúp 
+          function toggleSec3() {
+               var sec3 = document.querySelector('.sec-3');
+               sec3.classList.toggle('show');
+
+               var elementsToBlur = document.querySelectorAll('body > *:not(.sec-3)');
+               for (var i = 0; i < elementsToBlur.length; i++) {
+                    elementsToBlur[i].classList.toggle('blur-effect');
+               }
+          }
+          // Thoát trợ giúp 
+          // Nhận lượt chơi 
+          window.addEventListener('load', function () {
+               var sec2 = document.querySelector('.sec-2');
+               sec2.classList.add('visible');
+          });
+
+          document.getElementById('Nhanbutton').addEventListener('click', function () {
+               var sec2 = document.querySelector('.sec-2');
+               sec2.classList.toggle('visible');
+          });
+     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+     <script>
+          AOS.init();
+     </script>
+</body>
+
+</html>

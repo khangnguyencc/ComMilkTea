@@ -1,0 +1,95 @@
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-king {
+        background: #A2A2F9;
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-king .mainMenu {
+        display: flex;
+        list-style: none;
+    }
+    .nav-king .mainMenu li a {
+        display: inline-block;
+        padding: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 5vw;
+        transition: 0.2s ease;
+        font-family: ClassiqueSaigon;
+    }
+    .nav-king .mainMenu li a:hover {
+        background: rgb(255, 94, 0);
+    }
+    .nav-king .openMenu {
+        font-size: 2rem;
+        margin: 20px;
+        display: none;
+        cursor: pointer;
+    }
+    .nav-king .mainMenu .closeMenu,
+    .icons i {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+    .fa-facebook:hover {
+        color: rgb(0, 110, 255);
+    }
+    .fa-twitter:hover {
+        color: rgb(86, 154, 243);
+    }
+    .fa-instagram:hover {
+        color: rgb(255, 0, 191);
+    }
+    .fa-github:hover {
+        color: rgb(255, 123, 0);
+    }
+    .nav-king .logo{
+        width: 20%;
+        padding: 0.5rem;
+    }
+    .nav-king .logo img{
+        width: 100%;
+    }
+    @media (max-width: 800px) {
+        .nav-king .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #A2A2F9;
+        transition: top 1s ease 0s;
+        display: none;
+        }
+        .nav-king .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        }
+        .nav-king .openMenu {
+        display: block;
+        }
+        .nav-king .mainMenu li a:hover {
+        background: none;
+        color: #FF96D1;
+        text-shadow: 0 0 1rem #FF96D1;
+        }
+        .icons i {
+        display: inline-block;
+        padding: 12px;
+        }
+    }
+    

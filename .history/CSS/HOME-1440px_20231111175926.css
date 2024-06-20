@@ -1,0 +1,11 @@
+@media screen and (max-width: 1440px) {
+    
+    /* <!-- Nội dung thứ 2: BEST SELLER --> */
+    /* FLEX 2 khối  */
+    .sec-2{
+        background-color: #FFF1ED;
+        position: relative;
+        padding: 0.5rem 0;
+    }
+
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 1440px) {
+    
+    /* <!-- Nội dung thứ 2: BEST SELLER --> */
+    /* FLEX 2 khối  */
+    .sec-2{
+        background-color: #FFF1ED;
+        position: relative;
+        padding: 1.1rem 0;
+    }
+    /* HIỆU ỨNG BÓNG NƯỚC 1 */
+    .sec-2 .water-img-2 {
+        position: absolute;
+        top: 8rem;
+        right: 15rem;
+    }
+    .sec-2 .water-img-2 img{
+        width: 15%;
+        animation: animated alternate 0.5s linear infinite;
+    }
+    /* HIỆU ỨNG BÓNG NƯỚC 2 */
+    /* Hiệu ứng bóng nước 7*/
+    .sec-2 .water-img-6 {
+        position: absolute;
+        top: rem;
+        right: 50rem;
+    }
+    .sec-2 .water-img-6 img{
+        width: 10%;
+        animation: animated alternate 0.5s linear infinite;
+    }
+
+}

@@ -1,0 +1,26 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER CHA */
+header{
+    width: 100%;
+    background-color: yellow;
+}
+/* FLEX TẤT CẢ GTRI */
+header .main-header{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+/* ĐẶT GTRI CHO THẺ CHA CỦA IMG  */
+header .main-header .main-img{
+    width: 7%;
+    background-color:  red;
+}
+header .main-header .main-img img{
+    width: 100%;
+}
+
+

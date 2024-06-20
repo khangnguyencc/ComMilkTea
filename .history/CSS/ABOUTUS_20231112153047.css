@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FCF3E7;
+}
+
+/* <!-- NỘI DUNG 9: MÌNH TRÀ SỮA NHÉ  --> */
+.sec-9{
+    width: 100%;
+    background-color: #FEFCF8;
+    /* background-color: red; */
+    padding: 5rem 0;
+}
+.sec-9 .ar-9{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: brown; */
+}
+.sec-9 .ar-9 .milktea-drink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* CSS CHO ẢNH  */
+.sec-9 .ar-9 .milktea-drink .milktea-img{
+    width: calc(30%);
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img img{
+    width: 10rem;
+    height: 30rem;
+    object-fit: contain;
+    animation: go 1s infinite linear;
+}
+
+/* .sec-9 .ar-9 .milktea-drink .milktea-img-2{
+    width: calc(30%);
+    background-color: aquamarine;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .milktea-img-2 img{
+    width: 10rem;
+    height: 30rem;
+    animation: go 1s infinite linear;
+    object-fit: contain;
+} */
+
+/* CSS CHO CHỮ  */
+.sec-9 .ar-9 .milktea-drink .text-milktea{
+    width: 70%;
+    text-align: center;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(1){
+    color: #FF96D1;
+    font-family: ClassiqueSaigon;
+    font-size: 3vw;
+    text-shadow: 0 0.1rem 0.2rem black;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea .row-drink{
+    width: 25%;
+    height: 0.25rem;
+    background-color: #FFCE8D;
+    box-shadow: 0 0 0.5rem black;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(2){
+    font-family: swap;
+    color: black;
+    font-family: AlumniSans-Light;
+    font-weight: lighter;
+    padding: 2rem 0;
+    /* width: 75%; */
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5vw;
+}
+.sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(3){
+    font-family: swap;
+    color: black;
+    font-family: AlumniSans-Light;
+    font-weight: lighter;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5vw;
+    /* width: 75%; */
+}
+
+
+/* <!-- NỘI DUNG 10: ? TẠO RA THƯƠNG HIỆU  --> */
+
+.sec-10{
+    width: 100%;
+    background-color: #FCF3E7;
+    padding: 5rem 0;
+}
+.sec-10 .ar-10 > p{
+    color: #FFCE8D;
+    font-family: SVN-Appleberry;
+    text-align: center;
+    font-size: 2.5vw;
+    text-shadow: 0 0 0.5rem black;
+    margin-bottom: 2rem;
+}
+
+.sec-10 .ar-10 .img-main-sec10{
+    display: flex;
+    align-items: center;
+}
+
+.sec-10 .ar-10 .img-main-sec10 .img-sec10{
+    width: 50%;
+}
+.sec-10 .ar-10 .img-main-sec10 .img-sec10 img{
+    width: 100%;
+}
+
+.sec-10 .ar-10 .img-main-sec10 .text-sec10{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.sec-10 .ar-10 .img-main-sec10 .text-sec10 p{
+    color: black;
+    font-family: AlumniSans-Light;
+    width: 60%;
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-left: 1.5rem;
+}
+
+/* <!-- NỘI DUNG 11: PHONG CÁCH LÀM VIỆC --> */
+.sec-11{
+    width: 100%;
+    background-color: #FEFCF8;
+    padding: 5rem 0;
+}
+.sec-11 .ar-11 > p{
+    color: #A2A2F9;
+    font-family: SVN-Appleberry;
+    text-align: center;
+    font-size: 3vw;
+    /* text-shadow: 0 0 0.5rem black; */
+}
+
+.sec-11 .ar-11 .img-sec11{
+    width: 80%;
+    /* background-color: black; */
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11{
+    width: calc(33.333% - 10px);
+    margin-top: 5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    position: relative;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 img{
+    width: 100%;
+    height: 20rem;
+    transition: all 0.6s ease-in-out;
+}
+
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts{
+    position: absolute;
+    bottom: -10rem;
+    left: 3rem;
+    display: flex;
+    align-items: center;
+    transition: all .6s ease-in-out;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts p:nth-of-type(1){
+    font-size: 8vw;
+    font-family: RampartOne-Regular;
+    color: #FFCE8D;
+    text-shadow: 0 0 1rem black;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts p:nth-of-type(2){
+    font-size: 2.5vw;
+    font-family: ClassiqueSaigon;
+    color: #A2A2F9;
+    text-shadow: 0 0 1rem black;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11:hover img{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.sec-11 .ar-11 .img-sec11 .img-drinks-sec11:hover .firts{
+    bottom: 0;
+}
+
+/* CHỮ Ở NỘI DUNG 12 */
+/* ĐẶT GIÁ TRỊ LÀ 65% CHO NỘI DUNG ĐẦU TIÊN  */
+.ND-2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #FCF3E7;
+}
+/* CSS CHO THẺ MỤC LỤC ND 1 */
+.ND-2 h2{
+    font-size: 2.5vw;
+    font-family:  BRITANIC;
+    color: #A2A2F9;
+
+}
+/* LÀM THANH KẺ MÀU XANH */
+.ND-2 .green{
+    width: 10rem;
+    height: 3px;
+    background-color: #FFCE8D;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+/* CSS cho thẻ p nội dung  */
+.ND-2 p{
+    margin-top: 3rem;
+    color: #303030;
+    font-family: AlumniSans-Light;
+    font-size: 2vw;
+}
+
+/* ////////////////////// */
+/* * NỘI DUNG CHÍNH THỨC SỐ 2 */ */
+.FATHER1{
+    width: 100%;
+    background-color: red;
+}
+.ND-3{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* margin-top: 40px; */
+    /* background-color: red; */
+    padding-top: 5rem;
+
+}
+/* THẺ NẰM BÊN TRÁI SẼ LẤY 25% TỔNG SỐ 100% */
+.ND-3 .ND-3-FULL{
+    width: 30%;
+    text-align: right;
+}
+/* TIẾN HÀNH CSS CHO LỚP DIAMOND  */
+.ND-3 .ND-3-FULL .diamond .fa{
+    color: #A2A2F9;
+    font-size: 3vw;
+}
+/* CSS cho chữ công nghệ làm sạch  */
+.ND-3 .ND-3-FULL .diamond p:nth-of-type(1){
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: #111111;
+    font-family: SVN-Appleberry;
+}
+/* CSS CHO THẺ P THỨ 2 */
+.ND-3 .ND-3-FULL .diamond p:nth-of-type(2){
+    font-size: 1.5vw;
+    color: #303030;
+    margin-top: 10px;
+    font-family: AlumniSans-Light;
+}
+/* TÁCH DIAMOND Ở DÒNG THỨ 2 RA XA  */
+.ND-3 .ND-3-FULL .diamond:nth-of-type(2){
+    margin-top: 2rem;
+}
+
+/* GẮN GIÁ TRỊ CHO ND Ở GIỮA LÀ 50% */
+.ND-3 .ND-3-FULL-1{
+    width: 40%;
+    text-align: center;
+}
+/* CSS CHO THÀNH PHẦN Ở GIỮA ĐÓ LÀ ẢNH */
+.ND-3 .ND-3-FULL-1 img{
+    width: 80%;
+    border-radius: 50%;
+    padding: 1.5rem;
+    border: 1px solid #ebebeb;
+}
+
+/* CSS CHO CÁC NỘI DUNG NẰM PHÍA TAY PHẢI */
+
+/* THẺ NẰM BÊN TRÁI SẼ LẤY 25% TỔNG SỐ 100% */
+.ND-3 .ND-3-FULL-11{
+    width: 30%;
+    text-align: left;
+}
+/* TIẾN HÀNH CSS CHO LỚP DIAMOND  */
+.ND-3 .ND-3-FULL-11 .diamond-1 .fa{
+    color: #A2A2F9;
+    font-size: 3vw;
+}
+/* CSS cho chữ công nghệ làm sạch  */
+.ND-3 .ND-3-FULL-11 .diamond-1 p:nth-of-type(1){
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: #111111;
+    font-family: SVN-Appleberry;
+}
+/* CSS CHO THẺ P THỨ 2 */
+.ND-3 .ND-3-FULL-11 .diamond-1 p:nth-of-type(2){
+    font-size: 1.5vw;
+    color: #303030;
+    margin-top: 10px;
+    font-family: AlumniSans-Light;
+}
+/* TÁCH DIAMOND Ở DÒNG THỨ 2 RA XA  */
+.ND-3 .ND-3-FULL-11 .diamond-1:nth-of-type(2){
+    margin-top: 2rem;
+}
+
+/* NÚT BUTTON CHO RIÊNG ND 2 */
+.butttt{
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+.butttt .button-1{
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: all .4s;
+    cursor: pointer;
+    background-color: #A2A2F9;
+    border: 3px solid #A2A2F9;
+    color: white;
+    font-size: 15px;
+    text-shadow: 0 0 1px black;
+}
+/* KHI MÀ HOVER VÀO BUTTON THÌ SẼ  */
+.butttt .button-1:hover{
+    border: 3px solid #A2A2F9;
+    background-color: #ebebeb;
+}
+
+/* MÀN HÌNH 1024PX  */
+@media only screen and (max-width: 1024px) {
+    
+    /* NỘI DUNG MÌNH TRÀ SỮA NHÉ  */
+    .sec-9{
+        width: 100%;
+        background-color: #FEFCF8;
+        padding: 0rem 0;
+    }
+
+    /* CSS CHO ẢNH  */
+    .sec-9 .ar-9 .milktea-drink .milktea-img{
+        width: calc(15%);
+        /* background-color: aquamarine; */
+        text-align: center;
+    }
+    .sec-9 .ar-9 .milktea-drink .milktea-img img{
+        width: 100%;
+        height: 30rem;
+        object-fit: contain;
+        animation: go 1s infinite linear;
+    }
+    /* CSS CHO CHỮ  */
+    .sec-9 .ar-9 .milktea-drink .text-milktea{
+        width: 70%;
+        text-align: center;
+    }
+    /* CSS CHO NỘI DUNG H1 */
+    .sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(1){
+        color: #FF96D1;
+        font-family: ClassiqueSaigon;
+        font-size: 4vw;
+        text-shadow: 0 0.1rem 0.2rem black;
+    }
+    .sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(2){
+        font-family: swap;
+        color: black;
+        font-family: AlumniSans-Light;
+        font-weight: lighter;
+        padding: 2rem 0;
+        /* width: 75%; */
+        display: block;
+        margin: 0 auto;
+        font-size: 2vw;
+    }
+    .sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(3){
+        font-family: swap;
+        color: black;
+        font-family: AlumniSans-Light;
+        font-weight: lighter;
+        display: block;
+        margin: 0 auto;
+        font-size: 2vw;
+        /* width: 75%; */
+    }
+
+    /* NỘI DUNG THỨ 2: LÝ DO TẠO RA THƯƠNG HIỆU  */
+    /* CSS CHO THẺ NỘI DUNG  */
+    /* .sec-10{
+        width: 100%;
+        background-color: #FCF3E7;
+        padding: 5rem 0;
+    } */
+    .sec-10 .ar-10 > p{
+        color: #FFCE8D;
+        font-family: SVN-Appleberry;
+        text-align: center;
+        font-size: 3vw;
+        text-shadow: 0 0 0.5rem black;
+        margin-bottom: 2rem;
+    }
+    .sec-10 .ar-10 .img-main-sec10 .text-sec10 p{
+        color: black;
+        font-family: AlumniSans-Light;
+        width: 80%;
+        font-size: 2vw;
+        text-align: justify;
+        padding-left: 1.5rem;
+    }
+
+    /* NỘI DUNG 3: Phong cách làm việc tại cốm */
+    .sec-11{
+        width: 100%;
+        background-color: #FEFCF8;
+        padding: 3rem 0 5rem 0;
+    }
+    .sec-11 .ar-11 > p{
+        color: #A2A2F9;
+        font-family: SVN-Appleberry;
+        text-align: center;
+        font-size: 4vw;
+    }
+    .sec-11 .ar-11 .img-sec11 .img-drinks-sec11 img{
+        width: 100%;
+        height: 15rem;
+        transition: all 0.6s ease-in-out;
+    }
+    .sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts p:nth-of-type(1){
+        font-size: 10vw;
+        font-family: RampartOne-Regular;
+        color: #FFCE8D;
+        text-shadow: 0 0 1rem black;
+    }
+    .sec-11 .ar-11 .img-sec11 .img-drinks-sec11 .firts p:nth-of-type(2){
+        font-size: 3.5vw;
+        font-family: ClassiqueSaigon;
+        color: #A2A2F9;
+        text-shadow: 0 0 1rem black;
+    }
+    /* NỘI DUNG 4 GIÁ TRỊ TẠO NÊN CỐM MILK TEA  */
+    /* CSS CHO THẺ MỤC LỤC ND 1 */
+    .ND-2 h2{
+        font-size: 3vw;
+        font-family:  BRITANIC;
+        color: #A2A2F9;
+    }
+
+    /* CSS cho thẻ p nội dung  */
+    .ND-2 p{
+        margin-top: 2.5rem;
+        color: #303030;
+        font-family: AlumniSans-Light;
+        font-size: 2.2vw;
+    }
+
+    /* NỘI DUNG chính của 4 gtri  */
+    /* CSS cho chữ công nghệ làm sạch  */
+    .ND-3{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        /* margin-top: 40px; */
+        /* background-color: red; */
+        padding-top: 2rem;
+    }
+    .ND-3 .ND-3-FULL .diamond .fa{
+        color: #A2A2F9;
+        font-size: 4vw;
+    }
+    .ND-3 .ND-3-FULL .diamond p:nth-of-type(1){
+        font-size: 2vw;
+        font-weight: bolder;
+        margin-top: 1rem;
+        color: #111111;
+        font-family: SVN-Appleberry;
+    }
+    /* CSS CHO THẺ P THỨ 2 */
+    .ND-3 .ND-3-FULL .diamond p:nth-of-type(2){
+        font-size: 2vw;
+        color: #303030;
+        margin-top: 10px;
+        font-family: AlumniSans-Light;
+    }
+    /* TIẾN HÀNH CSS CHO LỚP DIAMOND  */
+    .ND-3 .ND-3-FULL-11 .diamond-1 .fa{
+        color: #A2A2F9;
+        font-size: 4vw;
+    }
+    /* CSS cho chữ công nghệ làm sạch  */
+    .ND-3 .ND-3-FULL-11 .diamond-1 p:nth-of-type(1){
+        font-size: 2vw;
+        font-weight: bolder;
+        margin-top: 1rem;
+        color: #111111;
+        font-family: SVN-Appleberry;
+    }
+    /* CSS CHO THẺ P THỨ 2 */
+    .ND-3 .ND-3-FULL-11 .diamond-1 p:nth-of-type(2){
+        font-size: 2vw;
+        color: #303030;
+        margin-top: 10px;
+        font-family: AlumniSans-Light;
+    }
+    .butttt{
+        text-align: center;
+        margin-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+
+/* MÀN HÌNH 768px  */
+@media only screen and (max-width: 768px) {
+    /* NỘI DUNG MÌNH UỐNG TRÀ SỮA NHÉ  */
+    .sec-9{
+        width: 100%;
+        background-color: #FEFCF8;
+        padding: 0rem 0;
+    }
+    /* CSS CHO ẢNH  */
+    .sec-9 .ar-9 .milktea-drink .milktea-img{
+        width: calc(15%);
+        /* background-color: aquamarine; */
+        text-align: center;
+    }
+    .sec-9 .ar-9 .milktea-drink .milktea-img img{
+        width: 100%;
+        height: 30rem;
+        object-fit: contain;
+        animation: go 1s infinite linear;
+    }
+    /* CSS CHO CHỮ  */
+    .sec-9 .ar-9 .milktea-drink .text-milktea{
+        width: 70%;
+        text-align: center;
+    }
+    .sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(1){
+        color: #FF96D1;
+        font-family: ClassiqueSaigon;
+        font-size: 4.5vw;
+        text-shadow: 0 0.1rem 0.2rem black;
+    }
+    .sec-9 .ar-9 .milktea-drink .text-milktea .row-drink{
+        width: 35%;
+        height: 0.25rem;
+        background-color: #FFCE8D;
+        box-shadow: 0 0 0.5rem black;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+    .sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(2){
+        font-family: swap;
+        color: black;
+        font-family: AlumniSans-Light;
+        font-weight: lighter;
+        padding: 2rem 0;
+        /* width: 75%; */
+        display: block;
+        margin: 0 auto;
+        font-size: 2.5vw;
+    }
+    .sec-9 .ar-9 .milktea-drink .text-milktea p:nth-of-type(3){
+        font-family: swap;
+        color: black;
+        font-family: AlumniSans-Light;
+        font-weight: lighter;
+        display: block;
+        margin: 0 auto;
+        font-size: 2.5vw;
+    }
+    /* NỘI DUNG 2: LÝ DO TẠO RA THƯƠNG HIỆU  */
+
+    .sec-10 .ar-10 > p{
+        color: #FFCE8D;
+        font-family: SVN-Appleberry;
+        text-align: center;
+        font-size: 4vw;
+        text-shadow: 0 0 0.5rem black;
+        margin-bottom: 2rem;
+    }
+    .sec-10 .ar-10 .img-main-sec10 .img-sec10{
+        width: 60%;
+    }
+    .sec-10 .ar-10 .img-main-sec10 .text-sec10{
+        width: 40%;
+        /* background-color: aquamarine; */
+    }
+    .sec-10 .ar-10 .img-main-sec10{
+        overflow-x: auto;
+    }
+    .sec-10 .ar-10 .img-main-sec10::-webkit-scrollbar{
+        width: 0;
+    }
+    .sec-10 .ar-10 .img-main-sec10 .text-sec10 p{
+        color: black;
+        font-family: AlumniSans-Light;
+        width: 120%;
+        font-size: 2vw;
+        text-align: justify;
+        padding-left: 1.5rem;
+    }
+    /* NỘI DUNG: PHONG CÁCH LÀM VIỆC  */
+    .sec-11{
+        width: 100%;
+        padding: 3rem 0 5rem 0;
+    }
+    .sec-11 .ar-11 > p{
+        color: #A2A2F9;
+        font-family: SVN-Appleberry;
+        text-align: center;
+        font-size: 5vw;
+        /* text-shadow: 0 0 0.5rem black; */
+    }
+    .sec-11 .ar-11 .img-sec11{
+    width: 100%;
+    /* background-color: black; */
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    .sec-11 .ar-11 .img-sec11 .img-drinks-sec11{
+        width: calc(33.333% - 10px);
+        margin-top: 5rem;
+        overflow: hidden;
+        border-radius: 2rem;
+        position: relative;
+    }
+    .sec-11 .ar-11 .img-sec11 .img-drinks-sec11 img{
+        width: 100%;
+        height: 15rem;
+        transition: all 0.6s ease-in-out;
+    }
+    /* NỘI DUNG : 4 GIÁ TRỊ LÀM NÊN THƯƠNG HIỆU  */
+    /* CSS CHO THẺ MỤC LỤC ND 1 */
+    .ND-2 h2{
+        font-size: 4vw;
+        font-family:  BRITANIC;
+        color: #A2A2F9;
+
+    }
+    /* CSS cho thẻ p nội dung  */
+    .ND-2 p{
+        margin-top: 3rem;
+        color: #303030;
+        font-family: AlumniSans-Light;
+        font-size: 3vw;
+    }
+    /* NỘI DUNG Ở DƯỚI  */
+    /* THẺ NẰM BÊN TRÁI SẼ LẤY 25% TỔNG SỐ 100% */
+    .ND-3{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        /* margin-top: 40px; */
+        /* background-color: red; */
+        padding-top: 5rem;
+    }
+    .ND-3 .ND-3-FULL{
+        width: 100%;
+        text-align: left;
+    }
+    /* TIẾN HÀNH CSS CHO LỚP DIAMOND  */
+    .ND-3 .ND-3-FULL .diamond .fa{
+        color: #A2A2F9;
+        font-size: 6vw;
+    }
+    /* CSS cho chữ công nghệ làm sạch  */
+    .ND-3 .ND-3-FULL .diamond p:nth-of-type(1){
+        font-size: 4vw;
+        font-weight: bolder;
+        margin-top: 1rem;
+        color: #111111;
+        font-family: SVN-Appleberry;
+    }
+    /* CSS CHO THẺ P THỨ 2 */
+    .ND-3 .ND-3-FULL .diamond p:nth-of-type(2){
+        font-size: 3vw;
+        color: #303030;
+        margin-top: 10px;
+        font-family: AlumniSans-Light;
+        width: 50%;
+    }
+    /* CSS CHO ẢNH BIẾN MẤT  */
+    .ND-3 .ND-3-FULL-1{
+        display: none;
+    }
+}

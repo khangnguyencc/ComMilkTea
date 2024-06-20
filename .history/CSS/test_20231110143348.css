@@ -1,0 +1,11 @@
+div{
+    text-align: center;
+}
+div img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+div img:hover{
+    transform: scale(1.2);
+}

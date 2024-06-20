@@ -1,0 +1,50 @@
+@media screen and (max-width: 426px) {
+    .sec-3-1 {
+        margin : 2rem 0 1rem 0;
+        text-align: center;
+    }
+    .sec-3-1 p {
+        font-size: 10vw;
+    }
+    .sec-4-1 {
+        display: block;
+        justify-content: center;
+    }
+    .sec-4-1 p {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 4vw;
+    }
+    
+
+    .sec-5-1 .sec-5-timkiem {
+        width: 100%;
+        border: none;
+        margin-top: 1em;
+        font-size: 3.4vw;
+    }
+    .sec-6-1 p {
+        font-size: 7vw;
+    }
+    .sec-7 .sec-7-sanpham {
+        width: 50%;
+        margin-top: 1rem ;
+    }
+    .sec-7 .sec-7-sanpham img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-7 .sec-7-sanpham .ten_sanpham {
+        font-size: 4vw;
+
+    }
+    .sec-7 .sec-7-sanpham .gia_sanpham {
+        font-size: 5vw;
+
+    }
+    .sec-7 .sec-7-sanpham button {
+        margin-left: 10%;
+        font-size: 3vw;
+    }
+}
